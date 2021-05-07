@@ -1,0 +1,18 @@
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Fonte: https://www.tcm.ba.gov.br/consulta-de-despesas/
+
+
+https://www.tcm.ba.gov.br/consulta-de-despesas/detalhe-despesa?entidade=392&ano=2010&orgao=2&unidOrca=808&fase=P&empenho=2000000093&nuDocumento=2&valor=70.0&data=2010-01-04%2000:00:00.000
+https://www.tcm.ba.gov.br/consulta-de-despesas/detalhe-despesa?entidade=392&ano=2017&orgao=4&unidOrca=404&fase=P&empenho=27&nuDocumento=2&valor=0.55000000000000004&data=2017-01-10%2000:00:00.000
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,79 @@
+(function($) {
+
+  $.fn.stylinjection = function(options) {
+
+    var defaults = {
+      auto     : false,
+      trigger  : 'click',
+      destroy  : true,
+      parent   : 'head',
+      linkTemplate : '<link rel="stylesheet" />'
+    }
+
+    var settings = $.extend({}, defaults, options);
+
+    return this.each(function() {
+
+      var target                = $(this);
+      var source                = $(this).attr('href');
+      var linkSelector          = '[href="' + source + '"]';
+      var dataValueInjection    = 'injection';
+      var dataValueInjected     = 'injected';
+      var dataInjectionAttr     = 'data-injection';
+      var dataInjectionSelector = '[data-injection="injection"]';
+      var dataInjectedSelector  = '[data-injection="injected"]';
+
+      // CANCELA EVENTO PADRÃO DO ELEMENTO ALVO
+      $(target).on(settings.trigger, function(event) {
+        event.preventDefault();
+      });
+
+      //INSERIR ATRIBUTO DATA
+      if($(target).not(dataInjectionSelector)){
+        $(target).attr(dataInjectionAttr, dataValueInjection);
+      }
+
+      // REMOVER
+      if (settings.destroy) {
+        $(target).on(settings.trigger, function(event) {
+          if ($(linkSelector, settings.parent).length == 1) {
+            if ($(target).is(dataInjectedSelector)) {
+              $(settings.parent).children(linkSelector).remove();
+              $(target).attr(dataInjectionAttr, dataValueInjection);
+              event.stopImmediatePropagation();
+            }
+          }
+        });
+      }
+      // end
+
+      // INSERÇÃO AUTOMÁTICA
+      if (settings.auto) {
+        $(window).load(function() {
+          $(settings.linkTemplate).appendTo(settings.parent).attr('href', source);
+          $(target).attr(dataInjectionAttr, dataValueInjected);
+        });
+      }
+      // end
+
+      // INSERÇÃO POR EVENTO
+      if (!settings.auto) {
+        $(target).on(settings.trigger, function(event) {
+          if ($(target).is(dataInjectionSelector)) {
+            $(settings.linkTemplate).appendTo(settings.parent).attr('href', source);
+            $(target).attr(dataInjectionAttr, dataValueInjected);
+            event.stopImmediatePropagation();
+          }
+        });
+      }
+      // end
+
+    });
+    // end loop
+
+  };
+  // end stylinjection
+
+})(jQuery);
+
+// TODO: Gravar persistência através de cookie - usar cookie-jquery

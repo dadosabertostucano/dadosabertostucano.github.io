@@ -1,0 +1,471 @@
+@charset "utf-8";
+/*------------------------------------------------------------------------------------
+    STYLESHEET PORTAL DOS CLIENTES 2012
+
+    autor: Thiago Teles Pereira - Web Designer
+    contato: thiago.teles@portalimap.org.br
+    empresa: IMAP - Instituto Municipal de Administração Pública
+    criado em: 19/03/2012
+    versão: 1.0
+-----------------------------------------------------------------------------------*/
+
+/*/////////////CSS RESET/////////////*/
+tml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font: inherit;
+    /*list-style:none;*/
+    vertical-align:baseline;
+    /*line-height:19px;;*/
+}
+//* HTML5 - reset da propriedade display para navegadores antigos */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+/* ==========================================================================
+   =FIX BUGS
+   ========================================================================== */
+br{
+    clear: both;
+}
+.clearfix:after{
+    content:".";
+    height: 0;
+    line-height:0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+.clear{
+    clear:both;
+}
+*{
+    outline:none !important;
+}
+
+/*//////////////ELEMENTOS HTML///////////////*
+
+/*----------------------------------------------
+    CABEÇALHOS E PARAGRÁFO
+------------------------------------------------*/
+h1,h2,h3,h4,h5,h6{
+    font-weight:700;
+    padding-top:7px;
+    margin-bottom:3px;
+}
+h1{
+    font-size:2em;
+}
+h2, h3, h4, h5, h6{
+    font-size:1.3em;
+}
+p{
+    font-size:1em;
+    margin-bottom:10px;
+}
+/*--------------------------------------
+    ELEMENTOS DE FRASE
+-----------------------------------------*/
+strong{
+    font-weight:700;
+}
+em, dfn, var{
+    font-style:italic;
+}
+kbd, samp, code, pre{
+    font-family:"Courier New", Courier, monospace;
+}
+/*--------------------------
+    CITAÇÕES
+----------------------------*/
+blockquote, q{
+    margin-left:1em;
+}
+blockquote{
+    padding-left:0.75em;
+    border-left:1px solid #666;
+}
+blockquote p:first-child:before, q:before{
+    content:open-quote;
+}
+blockquote p:first-child:after, q:after{
+    content:close-quote;
+}
+cite{
+    font-style:italic;
+    font-size:90%;
+    font-weight:700;
+}
+cite:before{
+    content:"- ";
+}
+/*------------------
+    RÉGUA
+---------------------*/
+hr{
+    border-color:#CCC;
+    border-style:dotted;
+    border-width:1px 0 0 0;
+    margin:1em 0;
+}
+/*------------------------------------
+    ABREVIAÇÕES E SIGLAS
+-------------------------------------*/
+abbr,
+acronym,
+span[title]{
+    cursor:help;
+    border-bottom:1px dotted #666;
+}
+a abbr, a acronym{
+    border:none;
+}
+
+/*-----------------
+    LINKS
+--------------------*/
+a,
+a:visited,
+a:active{
+    color:#333;
+    text-decoration:underline;
+}
+a:hover{
+    color:#6699FF;
+}
+/*------------------
+    LISTAS
+---------------------*/
+ol, ul, dl{
+    padding-bottom:1em;
+    margin-left:1em;
+}
+li, dd{
+    padding:0.125em 0;
+}
+dl{
+    margin-left:1em;
+}
+dt{
+    margin-top:0.45em;
+    font-weight:700;
+}
+dd{
+    padding-left:1em;
+}
+/*---------------------
+    TABELAS
+------------------------*/
+table {
+    width:100%;
+    border-collapse:collapse;
+    border-spacing:0;
+    margin:0 auto 2em auto;
+    font-size:85%;
+    caption-side:top;
+}
+caption{
+    padding-bottom:0.45em;
+    font-size:1em;
+    font-weight:700;
+}
+th ,td{
+    border:1px solid #FFC455;
+}
+th{
+    font-weight:700;
+}
+th{
+    padding:0.45em;
+    vertical-align:middle;
+    background:url('img/table/bg_headerTable.png') repeat-x right bottom;
+}
+td{
+    padding:0.45em;
+    vertical-align:middle;
+}
+tbody tr.even{
+    background-color:#FFF2D9;
+
+}
+tbody tr.odd{
+    background-color:#F7D28A;
+}
+tbody tr td a{
+    text-decoration:none;
+}
+tbody tr:hover{
+    background:url("img/bg-line-repeat_blue.png") repeat scroll left top #F3F6FF;
+}
+tbody tr:hover td a{
+    text-decoration:underline;
+}
+td.cellHidden, th.cellHidden{
+    border:none;
+    background:#FFF;
+    box-shadow:none;/*IE 9, Firefox 4+, Chrome 10+, Opera 10.5+*/
+}
+tfoot{
+    border-top:1px solid #999;
+    font-weight:700;
+}
+tfoot td{
+    background-color:#FFF;
+}
+tfoot td.tableLegend{
+    border:none;
+    font-size:0.75em;
+    font-weight:400;
+    text-align:left;
+}
+/*--------------------------------------
+    FORMULÁRIO
+-----------------------------------------*/
+form{
+    width:auto;
+    margin:0;
+}
+form *{
+    margin:0;
+    outline:none;
+    list-style:none;
+    color:inherit;
+    font-family:inherit;
+}
+form fieldset{
+    padding:0.1em 0;
+}
+form fieldset > p{
+    padding-top:0;
+}
+form fieldset legend{
+    font-size:1.5em;
+    font-weight:700;
+}
+form label{
+    padding-top:0.85em;
+    padding-bottom:0.1em;
+    font-weight:700;
+    display:block;
+}
+form p{
+    padding-top:0.85em;
+    padding-bottom:0.3em;
+    font-weight:700;
+    display:block;
+}
+form input[type=checkbox], form input[type=radio]{
+    margin-right: 4px;
+}
+form input[type=checkbox], form input[type=checkbox] + label, form input[type=radio], form input[type=radio] + label, button, submit, reset{
+    font-weight:400;
+    cursor:pointer;
+}
+form input[type=checkbox] + label, form input[type=radio] + label{
+    margin-right:0.75em;
+    display:inline;
+    -webkit-transition: all 300ms ease-in;
+       -moz-transition: all 300ms ease-in;
+        -ms-transition: all 300ms ease-in;
+         -o-transition: all 300ms ease-in;
+            transition: all 300ms ease-in;
+}
+form ul li label{
+    margin-bottom:0.2em;
+}
+form input[type=text], form input[type=password]{
+    width:224px;
+    height:20px;
+    padding:4px;
+    border:1px solid #CCC;
+    background-color:#FFF;
+    font-size:16px;
+    transition:border 300ms linear, box-shadow 300ms linear;/*W3C*/
+    -moz-transition:border 300ms linear, box-shadow 300ms linear; /*Firefox 4*/
+    -webkit-transition:border 300ms linear, box-shadow 300ms linear; /*Chrome e Safari*/
+    -o-transition:border 300ms linear, box-shadow 300ms linear; /*Opera*/
+}
+form textarea{
+    height:11.25em;
+    padding:4px;
+    border:1px solid #CCC;
+    background-color:#FFF;
+    font-size:16px;
+    /*transition:border 300ms linear, box-shadow 300ms linear;*//*W3C*/
+    -moz-transition:border 300ms linear, box-shadow 300ms linear; /*Firefox 4*/
+    -webkit-transition:border 300ms linear, box-shadow 300ms linear; /*Chrome e Safari*/
+    -o-transition:border 300ms linear, box-shadow 300ms linear; /*Opera*/
+}
+form select{
+    width:226px;
+    padding:3px;
+    border:1px solid #CCC;
+    margin-right:9px;
+    font-size:16px;
+    /*transition:border 300ms linear, box-shadow 300ms linear;*//*W3C*/
+    -moz-transition:border 300ms linear, box-shadow 300ms linear; /*Firefox 4*/
+    -webkit-transition:border 300ms linear, box-shadow 300ms linear; /*Chrome e Safari*/
+    -o-transition:border 300ms linear, box-shadow 300ms linear; /*Opera*/
+}
+form input[type="file"]{
+    height:30px;
+}
+form input[type=button], form input[type=submit], form input[type=reset]{
+    height:30px;
+    padding:3px 6px;
+    border:1px solid #999;
+    margin-top:7px;
+    margin-right:2px;
+    margin-bottom:11px;
+    font-size:13px;
+    text-shadow:0 1px 0 #FFF;/*Firefox 3+, Chrome 4+, Safari 4+, Opera 10+*/
+    background:#F4F4F4 url('img/form/bg_button_29H.png') repeat-x left top;
+    box-shadow:inset 1px 2px 1px rgba(255,255,255,1);/*IE 9, Firefox 4+, Chrome 10+, Opera 10.5+*/
+    /*transition:border-color 300ms linear, color 300ms linear;*//*W3C*/
+    -moz-transition:border-color 300ms linear, color 300ms linear;/*Firefox 4*/
+    -webkit-transition:border-color 300ms linear, color 300ms linear;/*Chrome e Safari*/
+    -o-transition:border-color 300ms linear, color 300ms linear; /*Opera*/
+    cursor:pointer;
+}
+form input[type=button]:hover, form input[type=submit]:hover, form input[type=reset]:hover{
+    color:#336699;
+    border-color:#99CCFF;
+    background:#FFF url('img/form/bg_button_29H.png') repeat-x 0 -29px;
+}
+form input[type=button]:active, form input[type=submit]:active, form input[type=reset]:active{
+    color:#FFF;
+    border-color:#588AAD;
+    background:#FFF url('img/form/bg_button_29H.png') repeat-x left bottom;
+    /*transition:none;*//*W3C*/
+    -moz-transition:none; /*Firefox 4*/
+    -webkit-transition:none; /*Chrome e Safari*/
+    -o-transition:none; /*Opera*/
+}
+form input[disabled=disabled], form input[disabled=disabled]:hover, form input[disabled=disabled]:active{
+    border:1px solid #999;
+    color:#999;
+    text-indent:0;
+    text-shadow:0 1px 0 #FFF;/*Firefox 3+, Chrome 4+, Safari 4+, Opera 10+*/
+    background:#F4F4F4 url('img/form/bg_button_29H.png') repeat-x left top;
+    box-shadow:none;/*IE 9, Firefox 4+, Chrome 10+, Opera 10.5+*/
+    }
+form *.fieldLegend{
+    margin:4px 22px 4px 0;
+    color:#666;
+    font-size:12px;
+    font-weight:400;
+    text-decoration:none;
+    text-align:right;
+    /*transition:all 300ms ease;*//*W3C*/
+    -moz-transition:all 300ms ease; /*Firefox 4*/
+    -webkit-transition:all 300ms ease; /*Chrome e Safari*/
+    -o-transition:all 300ms ease; /*Opera*/
+    display:block;
+}
+form *.fieldLegend:hover{
+    color:#6699FF;
+    text-decoration:underline;
+}
+/*---------------------------------------
+    CLASSES EXTRAS
+---------------------------------------*/
+.inline{
+    display:inline;
+}
+.flutuaEsq{
+    float:left;
+}
+.flutuaDir{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.acessibilidade{
+    position:absolute;
+    text-indent:-10000em;
+}
+.hiddenElement{
+    display:none;
+}
+.legenda{
+    font-size:0.875em;
+    font-weight:400;
+    text-align:left;
+}
+.error{
+    position:relative;
+    top:-2px;
+    padding:0.75em;
+    border-radius:8px;/*IE9, Firefox 4+, Chrome 5+, Safari 5+, Opera 10.5+*/
+    margin:0;
+    color:#FFF;
+    font-size:0.875em;
+    text-align:center;
+    background:#990000 url("img/bg-line-repeat_red.gif") repeat scroll left top;
+}
+.message{
+    padding:1em;
+    border-radius:8px;/*IE9, Firefox 4+, Chrome 5+, Safari 5+, Opera 10.5+*/
+    color:#FFF;
+    background:#990000 url('img/bg-line-repeat_yellow.gif') repeat left top;
+    /*box-shadow:inset 0 2px 1px rgba(255,255,255,.4),2px 3px 3px rgba(0,0,0,.3);/*IE9, Firefox 4+, Chrome 10+, Safari, Opera 10.5+*/
+}
+.verticalTop{
+    vertical-align:top;
+}
+.regular400{
+    font-weight:400;
+}
+.alignRight{
+    text-align:right;
+}
+.alignLeft{
+    text-align:left;
+}
+.alignCenter{
+    text-align:center;
+}
+
+/*.horizontalListStyle uso em form para que os elementos fiquem lado a lado*/
+ul.horizontalListStyle{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.horizontalListStyle li{
+    margin-right: 10px;
+    float:left;
+}
+ul.horizontalListStyle li *{
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+}
+
+
+/*---------------------------------------
+    SELEÇÃO
+---------------------------------------*/
+::selection{
+    color:#FFF;
+    background-color:#5C9ECE;
+}
+::-moz-selection{
+    color:#FFF;
+    background-color:#5C9ECE;
+}

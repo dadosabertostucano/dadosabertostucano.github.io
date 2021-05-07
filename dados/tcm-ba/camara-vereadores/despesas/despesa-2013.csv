@@ -1,0 +1,432 @@
+empenho,data,dataEmpenho,municipio,unidade,codigoUnidade,orgao,unidadeOrcamentaria,credor,valor,,
+4,43,2013-01-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,28.5,,,2013-01-02 00:00:00.000
+2,1,2013-01-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,5104.17,,,2013-01-02 00:00:00.000
+1,3,2013-01-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,71245.71,,,2013-01-02 00:00:00.000
+11,43,2013-01-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,6.36,,,2013-01-02 00:00:00.000
+6,26,2013-01-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5790,,,2013-01-02 00:00:00.000
+8,29,2013-01-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2895,,,2013-01-02 00:00:00.000
+5,42,2013-01-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,598.71,,,2013-01-23 00:00:00.000
+12,28,2013-01-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-01-02 00:00:00.000
+13,37,2013-01-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO CENTRO DE CAPACITAÇAO E TREINAMENTO LTDA,1500,,,2013-01-02 00:00:00.000
+15,21,2013-01-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LUCIENE ANICÁCIO DE JESUS,1600,,,2013-01-02 00:00:00.000
+14,19,2013-01-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JORGE COSTA SEIXAS,1600,,,2013-01-02 00:00:00.000
+16,10,2013-01-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,3600,,,2013-01-02 00:00:00.000
+19,38,2013-01-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1326.75,,,2013-01-02 00:00:00.000
+25,39,2013-01-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSE ANTONIO REIS JUNIOR,341,,,2013-01-02 00:00:00.000
+20,34,2013-01-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+24,4,2013-01-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+26,2,2013-01-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1296.75,,,2013-01-02 00:00:00.000
+23,1,2013-01-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,8314.55,,,2013-01-02 00:00:00.000
+32,1,2013-01-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1365,,,2013-01-02 00:00:00.000
+35,41,2013-01-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,PRODIGITAL PROJETOS ELETRONICOS,1692.9,,,2013-01-02 00:00:00.000
+28,32,2013-01-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ANTONIO CARLOS ROCHA,1500,,,2013-01-02 00:00:00.000
+29,33,2013-01-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Antonio Nepomoceno Calazans Santos,3000,,,2013-01-02 00:00:00.000
+33,30,2013-01-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-01-02 00:00:00.000
+31,40,2013-01-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,480,,,2013-01-02 00:00:00.000
+34,31,2013-01-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,3222.54,,,2013-01-02 00:00:00.000
+30,25,2013-01-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+36,35,2013-02-01 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1944.2,,,2013-01-02 00:00:00.000
+37,1,2013-02-04 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,623.76,,,2013-01-02 00:00:00.000
+38,7,2013-02-05 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VIVO SA,3228.58,,,2013-01-02 00:00:00.000
+39,6,2013-02-07 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,672.35,,,2013-01-02 00:00:00.000
+40,8,2013-02-07 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,235.25,,,2013-01-02 00:00:00.000
+42,5,2013-02-15 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,95.46,,,2013-01-02 00:00:00.000
+41,52,2013-02-15 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,132.46,,,2013-02-15 00:00:00.000
+43,11,2013-02-18 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,23052.91,,,2013-01-02 00:00:00.000
+45,48,2013-02-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Mirailson de Carvalho Moura,142.5,,,2013-02-01 00:00:00.000
+57,33,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Antonio Nepomoceno Calazans Santos,3000,,,2013-01-02 00:00:00.000
+46,32,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ANTONIO CARLOS ROCHA,1500,,,2013-01-02 00:00:00.000
+53,35,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1944.2,,,2013-01-02 00:00:00.000
+54,30,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-01-02 00:00:00.000
+50,1,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,8697.09,,,2013-01-02 00:00:00.000
+47,3,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,58513.54,,,2013-01-02 00:00:00.000
+48,26,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5790,,,2013-01-02 00:00:00.000
+58,43,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,27,,,2013-01-02 00:00:00.000
+52,28,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-01-02 00:00:00.000
+49,29,2013-02-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2895,,,2013-01-02 00:00:00.000
+62,43,2013-02-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,6.36,,,2013-01-02 00:00:00.000
+63,3,2013-02-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,979.2,,,2013-01-02 00:00:00.000
+61,1,2013-02-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,800,,,2013-01-02 00:00:00.000
+67,44,2013-02-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARTUR BORGES DOS REIS,1488,,,2013-01-02 00:00:00.000
+70,45,2013-02-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMERENCIANO SANTOS DA SILVA,52.25,,,2013-02-01 00:00:00.000
+65,43,2013-02-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,10.56,,,2013-01-02 00:00:00.000
+69,49,2013-02-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,480,,,2013-02-01 00:00:00.000
+68,34,2013-02-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+78,47,2013-02-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Janildes Calazans Ferreira,230,,,2013-02-01 00:00:00.000
+71,50,2013-02-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1029.72,,,2013-02-01 00:00:00.000
+77,46,2013-02-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,3646.7,,,2013-02-01 00:00:00.000
+72,7,2013-02-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VIVO SA,3409.44,,,2013-01-02 00:00:00.000
+73,1,2013-02-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,6951.63,,,2013-01-02 00:00:00.000
+75,2,2013-02-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1155.7,,,2013-01-02 00:00:00.000
+79,4,2013-02-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+80,25,2013-03-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+82,6,2013-03-11 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,703.6,,,2013-01-02 00:00:00.000
+83,36,2013-03-11 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,RÁDIO TUCANO FM LTDA.,2000,,,2013-01-02 00:00:00.000
+81,5,2013-03-11 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,112.26,,,2013-01-02 00:00:00.000
+85,54,2013-03-12 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MANOEL DE JESUS NASCIMENTO,902.5,,,2013-03-01 00:00:00.000
+84,10,2013-03-12 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1200,,,2013-01-02 00:00:00.000
+86,21,2013-03-12 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LUCIENE ANICÁCIO DE JESUS,800,,,2013-01-02 00:00:00.000
+88,43,2013-03-13 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,27,,,2013-01-02 00:00:00.000
+89,55,2013-03-14 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,José Silva Santos,855,,,2013-03-01 00:00:00.000
+90,8,2013-03-14 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,198.01,,,2013-01-02 00:00:00.000
+91,11,2013-03-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,23230.36,,,2013-01-02 00:00:00.000
+93,51,2013-03-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO ADVOGADOS ASSOCIADOS ME,9000,,,2013-02-04 00:00:00.000
+94,43,2013-03-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,9.9,,,2013-01-02 00:00:00.000
+95,3,2013-03-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,57318.72,,,2013-01-02 00:00:00.000
+96,1,2013-03-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,9285.2,,,2013-01-02 00:00:00.000
+99,56,2013-03-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ANTONIO CARLOS ROCHA,1500,,,2013-03-01 00:00:00.000
+103,67,2013-03-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+104,34,2013-03-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+105,60,2013-03-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Antonio Nepomoceno Calazans Santos,3000,,,2013-03-01 00:00:00.000
+120,66,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1930,,,2013-03-01 00:00:00.000
+108,1,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,6951.63,,,2013-01-02 00:00:00.000
+111,2,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,828,,,2013-01-02 00:00:00.000
+110,4,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+121,57,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VIP SERIGRAFIA LTDA ME,160,,,2013-03-01 00:00:00.000
+116,64,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EDSON FERREIRA DE LIMA,340,,,2013-03-01 00:00:00.000
+118,61,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,KIDERLANIO LIVIO MORAIS REIS,2215,,,2013-03-01 00:00:00.000
+113,26,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5790,,,2013-01-02 00:00:00.000
+114,43,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,6.36,,,2013-01-02 00:00:00.000
+107,58,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,480,,,2013-03-01 00:00:00.000
+117,62,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,KIDERLANIO LIVIO MORAIS REIS,405,,,2013-03-01 00:00:00.000
+122,59,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,3942.69,,,2013-03-04 00:00:00.000
+106,63,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1099.52,,,2013-03-01 00:00:00.000
+115,28,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-01-02 00:00:00.000
+119,65,2013-03-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2895,,,2013-03-01 00:00:00.000
+124,68,2013-04-02 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LEONARA SANTANA GABRIEL ME,380,,,2013-04-01 00:00:00.000
+123,7,2013-04-02 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VIVO SA,3703.97,,,2013-01-02 00:00:00.000
+126,70,2013-04-04 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ISADORA JESUS DA PAIXAO,52.25,,,2013-04-01 00:00:00.000
+125,69,2013-04-04 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSE ANTONIO REIS JUNIOR,289,,,2013-04-01 00:00:00.000
+127,71,2013-04-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,RENATA DIAS BATISTA,295,,,2013-04-01 00:00:00.000
+130,11,2013-04-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,22627.66,,,2013-01-02 00:00:00.000
+128,6,2013-04-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,780.43,,,2013-01-02 00:00:00.000
+129,8,2013-04-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,215.09,,,2013-01-02 00:00:00.000
+133,72,2013-04-18 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M. MOREIRA DE SOUZA,1840,,,2013-04-01 00:00:00.000
+134,43,2013-04-18 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,27,,,2013-01-02 00:00:00.000
+132,14,2013-04-18 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CARLOS ALBERTO SANTANA FARIAS,400,,,2013-01-02 00:00:00.000
+139,1,2013-04-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,9040.51,,,2013-01-02 00:00:00.000
+135,25,2013-04-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+136,83,2013-04-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA CONCEIÇÃO DE ROMA SANTANA DANTAS,100,,,2013-04-01 00:00:00.000
+137,82,2013-04-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ILMARA CALAZANS DOS SANTOS SILVA,100,,,2013-04-01 00:00:00.000
+138,3,2013-04-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,55283.24,,,2013-01-02 00:00:00.000
+142,73,2013-04-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Nilza Lima da Silva,361,,,2013-04-01 00:00:00.000
+153,60,2013-04-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Antonio Nepomoceno Calazans Santos,3000,,,2013-03-01 00:00:00.000
+145,56,2013-04-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ANTONIO CARLOS ROCHA,1500,,,2013-03-01 00:00:00.000
+144,66,2013-04-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1960,,,2013-03-01 00:00:00.000
+154,43,2013-04-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,17.2,,,2013-01-02 00:00:00.000
+149,26,2013-04-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5790,,,2013-01-02 00:00:00.000
+146,67,2013-04-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+143,84,2013-04-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-04-01 00:00:00.000
+150,65,2013-04-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2895,,,2013-03-01 00:00:00.000
+158,34,2013-04-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+160,75,2013-04-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ASSOCIACAO DE JOVENS PARA A INTERGRACAO SOCIAL,136,,,2013-04-01 00:00:00.000
+161,76,2013-04-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,KIDERLANIO LIVIO MORAIS REIS,350,,,2013-04-01 00:00:00.000
+159,74,2013-04-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ROBSON FERREIRA DE JESUS ME,949,,,2013-04-01 00:00:00.000
+163,77,2013-04-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,480,,,2013-04-01 00:00:00.000
+165,81,2013-04-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Carmo Matos Comercio de Vidro Ltda,50,,,2013-04-01 00:00:00.000
+164,80,2013-04-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Carmo Matos Comercio de Vidro Ltda,90,,,2013-04-01 00:00:00.000
+162,59,2013-04-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,3997.32,,,2013-03-04 00:00:00.000
+167,78,2013-04-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1163,,,2013-04-01 00:00:00.000
+175,79,2013-04-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JANDIARA CALAZANS FERREIRA ME,1013.7,,,2013-04-01 00:00:00.000
+172,4,2013-04-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+173,2,2013-04-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1030.4,,,2013-01-02 00:00:00.000
+169,53,2013-04-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,RÁDIO TUCANO FM LTDA.,2000,,,2013-03-01 00:00:00.000
+168,7,2013-04-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VIVO SA,3312.66,,,2013-01-02 00:00:00.000
+170,1,2013-04-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,7244.72,,,2013-01-02 00:00:00.000
+166,15,2013-04-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Davi Andrade Santos,1200,,,2013-01-02 00:00:00.000
+176,43,2013-05-02 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,8.58,,,2013-01-02 00:00:00.000
+177,14,2013-05-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CARLOS ALBERTO SANTANA FARIAS,100,,,2013-01-02 00:00:00.000
+181,82,2013-05-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ILMARA CALAZANS DOS SANTOS SILVA,100,,,2013-04-01 00:00:00.000
+182,83,2013-05-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA CONCEIÇÃO DE ROMA SANTANA DANTAS,100,,,2013-04-01 00:00:00.000
+179,25,2013-05-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+178,23,2013-05-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Rodrigo Cavalcante dos Reis,100,,,2013-01-02 00:00:00.000
+180,22,2013-05-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MAÍSA DE JESUS MACEDO,100,,,2013-01-02 00:00:00.000
+183,6,2013-05-14 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,518.62,,,2013-01-02 00:00:00.000
+184,8,2013-05-14 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,214.11,,,2013-01-02 00:00:00.000
+185,11,2013-05-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,23093.86,,,2013-01-02 00:00:00.000
+193,43,2013-05-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,6.36,,,2013-01-02 00:00:00.000
+192,26,2013-05-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5790,,,2013-01-02 00:00:00.000
+191,94,2013-05-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1930,,,2013-05-02 00:00:00.000
+189,86,2013-05-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ROMEU MIRANDA NUNES,376,,,2013-05-02 00:00:00.000
+190,95,2013-05-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,D &amp; A Serviços e Transportes Ltda,5000,,,2013-05-02 00:00:00.000
+194,93,2013-05-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2895,,,2013-05-02 00:00:00.000
+188,84,2013-05-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-04-01 00:00:00.000
+203,1,2013-05-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,9130.91,,,2013-01-02 00:00:00.000
+202,3,2013-05-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,55283.24,,,2013-01-02 00:00:00.000
+200,87,2013-05-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARTUR BORGES DOS REIS,520,,,2013-05-02 00:00:00.000
+201,67,2013-05-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+197,43,2013-05-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,10.85,,,2013-01-02 00:00:00.000
+207,43,2013-05-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,23.76,,,2013-01-02 00:00:00.000
+206,51,2013-05-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO ADVOGADOS ASSOCIADOS ME,9000,,,2013-02-04 00:00:00.000
+209,21,2013-05-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LUCIENE ANICÁCIO DE JESUS,1600,,,2013-01-02 00:00:00.000
+211,10,2013-05-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1200,,,2013-01-02 00:00:00.000
+210,88,2013-05-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO CENTRO DE CAPACITAÇAO E TREINAMENTO LTDA,375,,,2013-05-02 00:00:00.000
+213,89,2013-05-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ROBSON FERREIRA DE JESUS ME,867,,,2013-05-02 00:00:00.000
+215,43,2013-05-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,10.8,,,2013-01-02 00:00:00.000
+217,34,2013-05-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+216,92,2013-05-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSE ANTONIO REIS JUNIOR,146,,,2013-05-02 00:00:00.000
+220,90,2013-05-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1255,,,2013-05-02 00:00:00.000
+219,59,2013-05-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,3893.56,,,2013-03-04 00:00:00.000
+221,91,2013-05-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,480,,,2013-05-02 00:00:00.000
+224,4,2013-05-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+225,2,2013-05-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1104,,,2013-01-02 00:00:00.000
+218,7,2013-05-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VIVO SA,2314.02,,,2013-01-02 00:00:00.000
+222,1,2013-05-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,7244.72,,,2013-01-02 00:00:00.000
+227,43,2013-05-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,8.58,,,2013-01-02 00:00:00.000
+229,83,2013-06-05 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA CONCEIÇÃO DE ROMA SANTANA DANTAS,100,,,2013-04-01 00:00:00.000
+228,82,2013-06-05 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ILMARA CALAZANS DOS SANTOS SILVA,100,,,2013-04-01 00:00:00.000
+230,25,2013-06-05 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+231,5,2013-06-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,366.51,,,2013-01-02 00:00:00.000
+232,6,2013-06-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,387.21,,,2013-01-02 00:00:00.000
+233,8,2013-06-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,222.19,,,2013-01-02 00:00:00.000
+236,11,2013-06-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,22627.66,,,2013-01-02 00:00:00.000
+247,96,2013-06-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARAILSON DE CARVALHO MOURA,47.5,,,2013-06-03 00:00:00.000
+242,2,2013-06-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1104,,,2013-01-02 00:00:00.000
+245,4,2013-06-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+241,3,2013-06-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,55283.03,,,2013-01-02 00:00:00.000
+238,95,2013-06-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,D &amp; A Serviços e Transportes Ltda,5000,,,2013-05-02 00:00:00.000
+239,1,2013-06-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,18712.05,,,2013-01-02 00:00:00.000
+251,93,2013-06-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2895,,,2013-05-02 00:00:00.000
+249,84,2013-06-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-04-01 00:00:00.000
+248,94,2013-06-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1944.2,,,2013-05-02 00:00:00.000
+250,26,2013-06-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5790,,,2013-01-02 00:00:00.000
+252,67,2013-06-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+260,34,2013-06-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+261,100,2013-06-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,RÁDIO TUCANO FM LTDA.,2000,,,2013-06-03 00:00:00.000
+259,98,2013-06-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1202.5,,,2013-06-03 00:00:00.000
+258,97,2013-06-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VIP SERIGRAFIA LTDA ME,370,,,2013-06-03 00:00:00.000
+263,59,2013-06-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,2986.06,,,2013-03-04 00:00:00.000
+262,99,2013-06-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,240,,,2013-06-03 00:00:00.000
+264,5,2013-07-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,100.1,,,2013-01-02 00:00:00.000
+265,6,2013-07-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,393.25,,,2013-01-02 00:00:00.000
+266,25,2013-07-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+267,82,2013-07-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ILMARA CALAZANS DOS SANTOS SILVA,100,,,2013-04-01 00:00:00.000
+268,83,2013-07-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA CONCEIÇÃO DE ROMA SANTANA DANTAS,100,,,2013-04-01 00:00:00.000
+269,8,2013-07-12 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,254.7,,,2013-01-02 00:00:00.000
+270,25,2013-07-16 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+271,11,2013-07-18 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,23295.46,,,2013-01-02 00:00:00.000
+273,3,2013-07-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,55937.79,,,2013-01-02 00:00:00.000
+274,1,2013-07-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,8623.43,,,2013-01-02 00:00:00.000
+280,106,2013-07-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-07-01 00:00:00.000
+281,107,2013-07-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2895,,,2013-07-01 00:00:00.000
+277,26,2013-07-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5790,,,2013-01-02 00:00:00.000
+279,43,2013-07-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,13.2,,,2013-01-02 00:00:00.000
+276,67,2013-07-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+282,95,2013-07-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,D &amp; A Serviços e Transportes Ltda,5000,,,2013-05-02 00:00:00.000
+284,94,2013-07-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1944.2,,,2013-05-02 00:00:00.000
+287,102,2013-07-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Carmo Matos Comercio de Vidro Ltda,315.35,,,2013-07-01 00:00:00.000
+286,101,2013-07-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILTON MIRANDA BITENCOURT,427.5,,,2013-07-01 00:00:00.000
+289,104,2013-07-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,360,,,2013-07-01 00:00:00.000
+290,59,2013-07-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,3544.37,,,2013-03-04 00:00:00.000
+288,103,2013-07-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1287.35,,,2013-07-01 00:00:00.000
+296,4,2013-07-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+291,1,2013-07-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,6530.56,,,2013-01-02 00:00:00.000
+293,2,2013-07-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,828,,,2013-01-02 00:00:00.000
+294,25,2013-07-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+300,105,2013-07-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ADAUTO DANTAS DE ANDRADE,985,,,2013-07-01 00:00:00.000
+298,34,2013-07-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+299,43,2013-07-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,7.92,,,2013-01-02 00:00:00.000
+301,51,2013-08-05 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO ADVOGADOS ASSOCIADOS ME,4500,,,2013-02-04 00:00:00.000
+302,82,2013-08-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ILMARA CALAZANS DOS SANTOS SILVA,100,,,2013-04-01 00:00:00.000
+307,19,2013-08-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JORGE COSTA SEIXAS,100,,,2013-01-02 00:00:00.000
+303,109,2013-08-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ROBSON FERREIRA DE JESUS ME,2064,,,2013-08-01 00:00:00.000
+304,85,2013-08-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSTITUTO MUNICIPAL DE ADMINISTRAÇÃO PUBLICA,1050,,,2013-04-01 00:00:00.000
+309,8,2013-08-13 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,221.18,,,2013-01-02 00:00:00.000
+308,6,2013-08-13 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,268.56,,,2013-01-02 00:00:00.000
+310,5,2013-08-13 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,97.29,,,2013-01-02 00:00:00.000
+311,110,2013-08-14 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,P.A. FONSECA TECNOLOGIA EM TREINAMENTOS,900,,,2013-08-01 00:00:00.000
+312,10,2013-08-14 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,900,,,2013-01-02 00:00:00.000
+313,11,2013-08-15 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,22720.19,,,2013-01-02 00:00:00.000
+315,111,2013-08-16 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERV. COMERCIO INFORMATIVO MATERIAL EDUCACIONAL E,3770,,,2013-08-01 00:00:00.000
+316,95,2013-08-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,D &amp; A Serviços e Transportes Ltda,5000,,,2013-05-02 00:00:00.000
+323,3,2013-08-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,55937.79,,,2013-01-02 00:00:00.000
+325,2,2013-08-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1058,,,2013-01-02 00:00:00.000
+327,118,2013-08-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1944.2,,,2013-08-01 00:00:00.000
+321,26,2013-08-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5790,,,2013-01-02 00:00:00.000
+320,67,2013-08-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+322,1,2013-08-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,9130.91,,,2013-01-02 00:00:00.000
+317,107,2013-08-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2895,,,2013-07-01 00:00:00.000
+318,106,2013-08-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-07-01 00:00:00.000
+331,43,2013-08-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,14.52,,,2013-01-02 00:00:00.000
+330,116,2013-08-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSE ANTONIO REIS JUNIOR,208,,,2013-08-01 00:00:00.000
+335,19,2013-08-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JORGE COSTA SEIXAS,100,,,2013-01-02 00:00:00.000
+333,82,2013-08-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ILMARA CALAZANS DOS SANTOS SILVA,100,,,2013-04-01 00:00:00.000
+334,83,2013-08-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA CONCEIÇÃO DE ROMA SANTANA DANTAS,100,,,2013-04-01 00:00:00.000
+332,25,2013-08-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+337,85,2013-08-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSTITUTO MUNICIPAL DE ADMINISTRAÇÃO PUBLICA,350,,,2013-04-01 00:00:00.000
+338,1,2013-08-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,8122.05,,,2013-01-02 00:00:00.000
+340,4,2013-08-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+336,34,2013-08-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+347,59,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,3968.81,,,2013-03-04 00:00:00.000
+346,114,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1387.15,,,2013-08-01 00:00:00.000
+349,43,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,7.92,,,2013-01-02 00:00:00.000
+345,113,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,520,,,2013-08-01 00:00:00.000
+348,115,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO CENTRO DE CAPACITAÇAO E TREINAMENTO LTDA,750,,,2013-08-01 00:00:00.000
+350,108,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,RÁDIO TUCANO FM LTDA.,2000,,,2013-07-01 00:00:00.000
+351,117,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CLAUDIO DO NASCIMENTO MOURA,785,,,2013-08-01 00:00:00.000
+343,10,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1200,,,2013-01-02 00:00:00.000
+344,112,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARLETE DANTAS PIMENTEL - ME,241.5,,,2013-08-01 00:00:00.000
+342,21,2013-08-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LUCIENE ANICÁCIO DE JESUS,1600,,,2013-01-02 00:00:00.000
+353,6,2013-09-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,270.26,,,2013-01-02 00:00:00.000
+354,8,2013-09-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,244.23,,,2013-01-02 00:00:00.000
+352,5,2013-09-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,101.16,,,2013-01-02 00:00:00.000
+358,11,2013-09-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,1100,,,2013-01-02 00:00:00.000
+360,3,2013-09-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,55937.79,,,2013-01-02 00:00:00.000
+361,1,2013-09-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,7405.13,,,2013-01-02 00:00:00.000
+363,2,2013-09-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1104,,,2013-01-02 00:00:00.000
+359,95,2013-09-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,D &amp; A Serviços e Transportes Ltda,5000,,,2013-05-02 00:00:00.000
+370,118,2013-09-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1960,,,2013-08-01 00:00:00.000
+367,26,2013-09-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5767.8,,,2013-01-02 00:00:00.000
+371,43,2013-09-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,13.86,,,2013-01-02 00:00:00.000
+366,67,2013-09-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+368,106,2013-09-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2403.25,,,2013-07-01 00:00:00.000
+372,122,2013-09-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2883.9,,,2013-09-02 00:00:00.000
+374,1,2013-09-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,6420.59,,,2013-01-02 00:00:00.000
+373,119,2013-09-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,520,,,2013-09-02 00:00:00.000
+378,120,2013-09-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1305.97,,,2013-09-02 00:00:00.000
+379,34,2013-09-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+376,4,2013-09-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+380,59,2013-09-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,4002.6,,,2013-03-04 00:00:00.000
+381,43,2013-09-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,7.26,,,2013-01-02 00:00:00.000
+384,10,2013-10-04 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,100,,,2013-01-02 00:00:00.000
+388,19,2013-10-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JORGE COSTA SEIXAS,100,,,2013-01-02 00:00:00.000
+385,25,2013-10-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+387,82,2013-10-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ILMARA CALAZANS DOS SANTOS SILVA,100,,,2013-04-01 00:00:00.000
+386,83,2013-10-09 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA CONCEIÇÃO DE ROMA SANTANA DANTAS,100,,,2013-04-01 00:00:00.000
+389,10,2013-10-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,600,,,2013-01-02 00:00:00.000
+391,5,2013-10-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,103.17,,,2013-01-02 00:00:00.000
+390,6,2013-10-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,319.37,,,2013-01-02 00:00:00.000
+394,85,2013-10-16 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSTITUTO MUNICIPAL DE ADMINISTRAÇÃO PUBLICA,350,,,2013-04-01 00:00:00.000
+392,8,2013-10-16 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,162.62,,,2013-01-02 00:00:00.000
+393,124,2013-10-16 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,DEPARTAMENTO ESTADUAL DE TRANSITO,105.25,,,2013-10-01 00:00:00.000
+397,127,2013-10-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,460,,,2013-10-01 00:00:00.000
+398,128,2013-10-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,DAIANE SANTOS PIMENTEL ME,1000,,,2013-10-01 00:00:00.000
+395,125,2013-10-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,3581,,,2013-10-01 00:00:00.000
+396,126,2013-10-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,1380,,,2013-10-01 00:00:00.000
+401,11,2013-10-18 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,23863.26,,,2013-01-02 00:00:00.000
+404,3,2013-10-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,55937.79,,,2013-01-02 00:00:00.000
+403,95,2013-10-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,D &amp; A Serviços e Transportes Ltda,5000,,,2013-05-02 00:00:00.000
+405,1,2013-10-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,4493.13,,,2013-01-02 00:00:00.000
+407,21,2013-10-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LUCIENE ANICÁCIO DE JESUS,800,,,2013-01-02 00:00:00.000
+413,135,2013-10-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,R da Rocha Campos ME,13115,,,2013-10-01 00:00:00.000
+410,129,2013-10-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,R da Rocha Campos ME,1800,,,2013-10-01 00:00:00.000
+412,43,2013-10-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,11.88,,,2013-01-02 00:00:00.000
+409,67,2013-10-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+417,26,2013-10-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5790,,,2013-01-02 00:00:00.000
+419,134,2013-10-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-10-01 00:00:00.000
+416,118,2013-10-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1944.2,,,2013-08-01 00:00:00.000
+415,122,2013-10-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2895,,,2013-09-02 00:00:00.000
+418,123,2013-10-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO ADVOGADOS ASSOCIADOS ME,4500,,,2013-09-02 00:00:00.000
+420,123,2013-10-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO ADVOGADOS ASSOCIADOS ME,4500,,,2013-09-02 00:00:00.000
+422,10,2013-10-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1200,,,2013-01-02 00:00:00.000
+421,21,2013-10-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LUCIENE ANICÁCIO DE JESUS,1600,,,2013-01-02 00:00:00.000
+423,130,2013-10-25 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO CENTRO DE CAPACITAÇAO E TREINAMENTO LTDA,750,,,2013-10-01 00:00:00.000
+432,34,2013-10-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+425,131,2013-10-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1418.82,,,2013-10-01 00:00:00.000
+428,4,2013-10-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+429,2,2013-10-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,828,,,2013-01-02 00:00:00.000
+431,82,2013-10-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ILMARA CALAZANS DOS SANTOS SILVA,100,,,2013-04-01 00:00:00.000
+424,25,2013-10-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+426,1,2013-10-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,6815.99,,,2013-01-02 00:00:00.000
+434,133,2013-10-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JADSON DA ROCHA DE ARAUJO,312.55,,,2013-10-01 00:00:00.000
+433,59,2013-10-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,4081.88,,,2013-03-04 00:00:00.000
+435,132,2013-10-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,520,,,2013-10-01 00:00:00.000
+436,43,2013-10-31 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,8.58,,,2013-01-02 00:00:00.000
+437,3,2013-11-01 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,979.2,,,2013-01-02 00:00:00.000
+441,121,2013-11-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,RÁDIO TUCANO FM LTDA.,2000,,,2013-09-02 00:00:00.000
+439,1,2013-11-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,2912,,,2013-01-02 00:00:00.000
+440,14,2013-11-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CARLOS ALBERTO SANTANA FARIAS,100,,,2013-01-02 00:00:00.000
+443,22,2013-11-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MAÍSA DE JESUS MACEDO,100,,,2013-01-02 00:00:00.000
+444,20,2013-11-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JORGE LUIZ MOURA NUNES,100,,,2013-01-02 00:00:00.000
+442,23,2013-11-06 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Rodrigo Cavalcante dos Reis,100,,,2013-01-02 00:00:00.000
+445,21,2013-11-07 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LUCIENE ANICÁCIO DE JESUS,800,,,2013-01-02 00:00:00.000
+446,10,2013-11-07 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,600,,,2013-01-02 00:00:00.000
+447,43,2013-11-07 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,1.32,,,2013-01-02 00:00:00.000
+448,5,2013-11-11 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,101.16,,,2013-01-02 00:00:00.000
+450,8,2013-11-11 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,212.17,,,2013-01-02 00:00:00.000
+449,6,2013-11-11 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,423.23,,,2013-01-02 00:00:00.000
+451,136,2013-11-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,800,,,2013-11-01 00:00:00.000
+456,138,2013-11-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JANDIARA CALAZANS FERREIRA ME,699,,,2013-11-01 00:00:00.000
+455,137,2013-11-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JANDIARA CALAZANS FERREIRA ME,1094,,,2013-11-01 00:00:00.000
+457,3,2013-11-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,55941.93,,,2013-01-02 00:00:00.000
+452,95,2013-11-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,D &amp; A Serviços e Transportes Ltda,5000,,,2013-05-02 00:00:00.000
+453,11,2013-11-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,1088.69,,,2013-01-02 00:00:00.000
+458,1,2013-11-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,4867.3,,,2013-01-02 00:00:00.000
+468,123,2013-11-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO ADVOGADOS ASSOCIADOS ME,4297.5,,,2013-09-02 00:00:00.000
+461,144,2013-11-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2884.8,,,2013-11-01 00:00:00.000
+465,143,2013-11-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1944.2,,,2013-11-01 00:00:00.000
+463,134,2013-11-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2404,,,2013-10-01 00:00:00.000
+469,43,2013-11-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,11.88,,,2013-01-02 00:00:00.000
+466,67,2013-11-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+462,26,2013-11-21 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5769.6,,,2013-01-02 00:00:00.000
+470,85,2013-11-22 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSTITUTO MUNICIPAL DE ADMINISTRAÇÃO PUBLICA,700,,,2013-04-01 00:00:00.000
+472,10,2013-11-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,600,,,2013-01-02 00:00:00.000
+478,14,2013-11-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CARLOS ALBERTO SANTANA FARIAS,100,,,2013-01-02 00:00:00.000
+475,23,2013-11-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Rodrigo Cavalcante dos Reis,100,,,2013-01-02 00:00:00.000
+474,22,2013-11-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MAÍSA DE JESUS MACEDO,100,,,2013-01-02 00:00:00.000
+477,140,2013-11-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO CENTRO DE CAPACITAÇAO E TREINAMENTO LTDA,3080,,,2013-11-01 00:00:00.000
+476,139,2013-11-28 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSE ANTONIO REIS JUNIOR,400,,,2013-11-01 00:00:00.000
+484,141,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1337.95,,,2013-11-01 00:00:00.000
+485,59,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,4136.38,,,2013-03-04 00:00:00.000
+495,142,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,520,,,2013-11-01 00:00:00.000
+492,34,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+496,2,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1274,,,2013-01-02 00:00:00.000
+486,4,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+482,22,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MAÍSA DE JESUS MACEDO,1600,,,2013-01-02 00:00:00.000
+481,23,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Rodrigo Cavalcante dos Reis,1600,,,2013-01-02 00:00:00.000
+479,21,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LUCIENE ANICÁCIO DE JESUS,1600,,,2013-01-02 00:00:00.000
+494,25,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,1600,,,2013-01-02 00:00:00.000
+480,10,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1200,,,2013-01-02 00:00:00.000
+483,82,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ILMARA CALAZANS DOS SANTOS SILVA,1600,,,2013-04-01 00:00:00.000
+487,1,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,13995.87,,,2013-01-02 00:00:00.000
+493,18,2013-11-29 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,HELCIO REIS DE SANTANA,1600,,,2013-01-02 00:00:00.000
+498,43,2013-12-02 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,11.22,,,2013-01-02 00:00:00.000
+499,145,2013-12-03 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Fórum da Comarca de Tucano - Tabelionato de Notas,74.4,,,2013-12-02 00:00:00.000
+500,146,2013-12-05 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Adailson Melo de Jesus,1472.5,,,2013-12-02 00:00:00.000
+503,6,2013-12-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,511.22,,,2013-01-02 00:00:00.000
+502,8,2013-12-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,231.52,,,2013-01-02 00:00:00.000
+501,5,2013-12-10 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,145.51,,,2013-01-02 00:00:00.000
+504,147,2013-12-12 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Carmo Matos Comercio de Vidro Ltda,300.51,,,2013-12-02 00:00:00.000
+506,1,2013-12-12 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,9358.88,,,2013-01-02 00:00:00.000
+505,148,2013-12-12 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,NE ARAÚJO,6800,,,2013-12-02 00:00:00.000
+508,43,2013-12-13 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,7.92,,,2013-01-02 00:00:00.000
+510,149,2013-12-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Prado Eventos,1000,,,2013-12-02 00:00:00.000
+512,25,2013-12-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+509,23,2013-12-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Rodrigo Cavalcante dos Reis,100,,,2013-01-02 00:00:00.000
+511,22,2013-12-17 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MAÍSA DE JESUS MACEDO,100,,,2013-01-02 00:00:00.000
+515,21,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,LUCIENE ANICÁCIO DE JESUS,1600,,,2013-01-02 00:00:00.000
+516,10,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,3600,,,2013-01-02 00:00:00.000
+514,14,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CARLOS ALBERTO SANTANA FARIAS,1600,,,2013-01-02 00:00:00.000
+519,144,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2884.8,,,2013-11-01 00:00:00.000
+522,85,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSTITUTO MUNICIPAL DE ADMINISTRAÇÃO PUBLICA,350,,,2013-04-01 00:00:00.000
+513,95,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,D &amp; A Serviços e Transportes Ltda,5000,,,2013-05-02 00:00:00.000
+521,67,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,M &amp; S CONSULTORIA E ASSESSORIA EM GESTÃO PÚBLICA L,4000,,,2013-03-04 00:00:00.000
+518,26,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5769.6,,,2013-01-02 00:00:00.000
+520,143,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,GSI - GLAUBER SERVIÇOS DE INFORMÁTICA LTDA.,1960,,,2013-11-01 00:00:00.000
+523,150,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO CENTRO DE CAPACITAÇAO E TREINAMENTO LTDA,1125,,,2013-12-02 00:00:00.000
+525,134,2013-12-19 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,2412.5,,,2013-10-01 00:00:00.000
+539,11,2013-12-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,1098.69,,,2013-01-02 00:00:00.000
+529,3,2013-12-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,VEREADORES MUNICIPAIS,55937.79,,,2013-01-02 00:00:00.000
+530,4,2013-12-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+534,2,2013-12-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,2193,,,2013-01-02 00:00:00.000
+527,123,2013-12-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,FALCAO ADVOGADOS ASSOCIADOS ME,4432.5,,,2013-09-02 00:00:00.000
+533,1,2013-12-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,16637.86,,,2013-01-02 00:00:00.000
+526,25,2013-12-20 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,Ronaldo Moura Dantas,100,,,2013-01-02 00:00:00.000
+540,43,2013-12-23 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,23.1,,,2013-01-02 00:00:00.000
+541,151,2013-12-24 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ROBSON FERREIRA DE JESUS ME,3612,,,2013-12-02 00:00:00.000
+547,153,2013-12-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,1380,,,2013-12-02 00:00:00.000
+549,4,2013-12-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ARGEMIRA SANTOS DE JESUS,1015.41,,,2013-01-02 00:00:00.000
+550,121,2013-12-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,RÁDIO TUCANO FM LTDA.,2000,,,2013-09-02 00:00:00.000
+548,154,2013-12-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MARIA ROSA ARAÚJO DOS REIS,1556.25,,,2013-12-02 00:00:00.000
+546,152,2013-12-26 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,AILSON DANTAS DOS SANTOS SOL POSTO ME,520,,,2013-12-02 00:00:00.000
+552,5,2013-12-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,EMBASA,101.16,,,2013-01-02 00:00:00.000
+553,34,2013-12-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,JOSÉ ADILSON DOS SANTOS DE TUCANO,120,,,2013-01-02 00:00:00.000
+560,11,2013-12-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,INSS - INSTITUTO NACIONAL DE SEGURIDADE SOCIAL,3485.59,,,2013-01-02 00:00:00.000
+554,59,2013-12-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,MICRO POSTO TUCANO LTDA,4305.92,,,2013-03-04 00:00:00.000
+558,43,2013-12-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,CAIXA ECONOMICA FEDERAL,0.66,,,2013-01-02 00:00:00.000
+555,26,2013-12-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,ORCONTAL - ORGANIZAÇÃO CONTÁBIL ALMEIDA LTDA.,5769.6,,,2013-01-02 00:00:00.000
+551,6,2013-12-27 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,COELBA,551.25,,,2013-01-02 00:00:00.000
+563,8,2013-12-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,TELEMAR NORTE LESTE S/A,186.85,,,2013-01-02 00:00:00.000
+567,2,2013-12-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,1528,,,2013-01-02 00:00:00.000
+566,1,2013-12-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,SERVIDORES DA CÂMARA,7799.98,,,2013-01-02 00:00:00.000
+564,155,2013-12-30 00:00:00.000,TUCANO,Camara Municipal de TUCANO,807,Câmara Municipal de Tucano,Câmara Municipal de Tucano,HF COMERCIAL DE PAPEIS LTDA,19700,,,2013-12-30 00:00:00.000

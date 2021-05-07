@@ -1,0 +1,11 @@
+Nome da Variável,Tipo,Descrição da Variável,Observação
+Nome,CHAR,Descreve o nome do servidor(a) do subsídio,Alguns beneficiários estão duplicados em um mesmo mês devido a vantagens e gratificações
+Matrícula,NUM,Descreve o número de matrícula do servidor(a),Em alguns anos a base original de dados não informou o número de matrícula e inserimos numeração 000
+Tipo Servidor,CHAR,Descreve o tipo de servidor(a),Sem observação
+Mês,CHAR,Descreve o mês correspondente ao pagamento,Alguns meses não foram informados na base de dados original
+Ano,NUM,Descreve o ano correspondente ao pagamento,Alguns anos não foram informados na base de dados original
+Cargo,CHAR,Descreve o cargo do servidor(a),Alguns cargos não foram informados na bse de dados original
+Salário Base,NUM,Descreve o salário bruto,Não é descontado por exemlo o IR ou INSS no valor informado
+Salário Vantagens,NUM,Descreve valores obtidos através de vantagens,Sem observação
+Salário Gratificação,NUM,Descreve valores obtidos por gratificações,Varia de cargos para cargos
+Valor Recebido,NUM,Descreve a soma do Salário Base Vantagens e  Gratificações,Não significa que o servidor(a) recebeu este valor ao fim do mês

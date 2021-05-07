@@ -1,0 +1,394 @@
+//  Iniciando a variavel de endereco do SITE
+var pathTmp = $(location).attr('href').split('/');
+var path = pathTmp[0] + '//' + pathTmp[1] + pathTmp[2];
+var estados = Array('AC', 'AL', 'AM', 'AP', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MG', 'MS', 'MT', 'PA', 'PB', 'PE', 'PI', 'PR', 'RJ', 'RN', 'RO', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO');
+//CASO A URL TENHA O IO.ORG.BR/ESTADO/MUNICIPIO
+//COLOCA OS CAMPOS ESTADO E MUNICIPIO NO PATH
+estados.forEach(function(valor) {
+    if (valor == pathTmp[3].toUpperCase()) {
+        path = path + '/' + pathTmp[3] + '/' + pathTmp[4];
+    }
+});
+$(document).ready(function() {
+    showHide();
+    $('body').removeClass('no-js');
+    TiposRelatorio131();
+    //#EVENTO
+    $('#relatorio').change(function() {
+        TiposRelatorio131();
+    });
+    //CARREGA AO INCIAR SE EXISTIR O CAMPO GRUPO
+    if ($('#grupo').val() != undefined) {
+        //console.log('1');
+        getSelectOptionValues('#grupo', '#subgrupoCombo', '/ajax/ajax/getComboSubgrupoCP/', 'subgrupo');
+        getSelectOptionValues('#subgrupoh', '#anoCombo', '/ajax/ajax/getComboAnoCP/', 'ano');
+        getSelectOptionValues('#subgrupoh', '#anoCombo2', '/ajax/ajax/getComboAnoDO/', 'anoDO');
+    }
+    //CARREGA COM EVENTO
+    $('#grupo').change(function() {
+        //console.log('12');
+        getSelectOptionValues('#grupo', '#subgrupoCombo', '/ajax/ajax/getComboSubgrupoCP/', 'subgrupo');
+    });
+    $(document).on('change', '#subgrupo', function() {
+        //console.log('123');
+        getSelectOptionValues('#subgrupo', '#anoCombo', '/ajax/ajax/getComboAnoCP/', 'ano');
+    }).on('change', '#subgrupoLicitacoes', function() {
+        getSelectOptionValues('#subgrupoLicitacoes', '#anoCombo', '/ajax/ajax/getComboAnoLicitacoes/', 'ano');
+    }).on('click', '#btnImprimir', function() {
+        printArea('#printUl');
+    });
+	
+	//$('.maskAno').mask('1111');
+
+    //DISPARA INFO BANNERS
+    // infoBanners();
+
+    //DISPARA REDIMENSINAMENTO DE TEXTO
+    // $.textResize('#mainContent');
+    $.textResize('#mainContent', {
+        'variation': 2,
+        'animation': false,
+        'classReduce': 'diminuir',
+        'classReset': 'normal',
+        'classEnlarge': 'aumentar',
+        'optionInterface': 'button',
+        'clicks': 4,
+        'cookie': 'tamanhoFonte',
+        'animation': false,
+        'imageAnimation': false
+    });
+
+    // aumentaTexto();
+
+    //DISPARA A FUNÇÃO CONTRAST
+    $(window).load(function(){
+     $('#contrast').stylinjection();
+    });
+
+
+    //  SLIDER PARA O BANNER INFORMATIVO INICIAL
+    if ($('#bannerInformativo')[0]) {
+        $('ul#sliderControls li.hiddenElement').remove();
+        //  SLIDER PRINCIPAL
+        $('#sliderInformativo').cycle({
+            //  Configuracoes do slide
+            fx: 'scrollHorz',
+            timeout: 5000,
+            speed: 800,
+            pager: '#sliderControls',
+            pause: true, // Pausa com o evento mouseover sobre a IMAGEM do SLIDER
+            activePagerClass: 'active', //  Classe inserido no paginator quando ATIVO
+            // callback fn that creates a thumbnail to use as pager anchor
+            pagerAnchorBuilder: function(i, slide) {
+                return '<li><a class="next" href="#">' + (i + 1) + '</a></li>';
+            }
+        });
+    }
+    //  Efeito Acordion para as páginas; Trabalha SOMENTE com estas classes
+    //      - titleAccordion    => Titulo do texto que ficara visivel
+    //      - textAccordion     => Conteudo referente ao titulo que aparece ao clicar no titulo referente ao mesmo
+    if ($('.textAccordion')[0]) {
+        //  Escondendo TODAS as classes textAccordion
+        $('.titleAccordion').css('cursor', 'pointer')
+        $('.textAccordion').hide();
+        $('.titleAccordion').click(function() {
+            if ($(this).next('.textAccordion').is(':hidden')) {
+                $('.textAccordion').slideUp();
+            }
+            //  Mostrando o conteudo
+            $(this).next('.textAccordion').slideDown();
+        });
+    }
+    //  Pretty photo para as galerias
+    if ($('#photoGallery')[0]) {
+        $("#photoGallery a[rel^='prettyPhoto']").prettyPhoto();
+    }
+    //Comportamento expansível para listas
+    if ($('ul.expansibleIndex')[0]) {
+        expansibleIndex();
+    }
+    if ($('ul.konsertina')[0]) {
+        konsertina();
+    }
+    //  Troca atributo rel="external" para target="_blank"
+    //  Para validacao do PORTAL; Aplicavel em TODAS as paginas do PORTAL
+    $('a[rel=external]').attr('target', '_blank');
+    $('.external').css({
+        paddingRight: '0.75em',
+        background: 'url("' + path + '/css/themes/2012/img/externalLink.gif") no-repeat right top'
+    });
+    //  Manipulando os valores de altura e largura do IFRAMES do YOUTUBE, etc
+    $('iframe').width('462px').height('289px');
+    //  CLASSES PARA AS MASCARAS DOS FORMULARIOS
+    $(".maskDate").mask("99/99/9999");
+    $(".maskPhone").mask("(99) 9999-9999");
+    $(".maskCep").mask("99999-999");
+    $(".maskCpf").mask("999.999.999-99");
+    $(".maskCnpj").mask("99.999.999/9999-99");
+    $(".maskNumeric").mask("999999999999999999999999999999");
+    //mostra a busca avan?ada
+    $("#buscaAvancadaOpcoes").hide();
+    $('#buscaAvancada').toggle(function() {
+        $('#buscaAvancadaOpcoes').slideDown();
+    }, function() {
+        $('#buscaAvancadaOpcoes').slideUp();
+    });
+    // $("#buscaAvancada").click(function(){
+    //     $("#buscaAvancadaOpcoes").toggle();
+    //     if ( $('#buscaAvancadaOpcoes').css('display') == 'none'){
+    //         $("#buscaAvancadaOpcoes :checkbox").attr('checked', true);
+    //     }else{
+    //         $("#buscaAvancadaOpcoes :checkbox").attr('checked', false);
+    //     }
+    // });
+    /*----------------------------
+        PIN UNPIN E PAGINA��O
+    ------------------------------*/
+    if ($('.pinUnpin')[0]) {
+        $('.pinUnpin').click(function() {
+            //TEXTO ACESS�VEL
+            var stringDefault = 'desfixar';
+            var stringVariant = 'fixar';
+            //METADE DA LARGURA DA PAGINA��O
+            var halfWidth = '-' + ($('.pinUnpin_block').width() / 2) + 'px';
+            //COMPORTAMENTO PARA PIN UNPIN EM PAGINA��O NO QUAL ESTE N�O � O FILHO DIRETO DE PINUNPIN_BLOCK
+            if ($('.paginationBlock').length > 0) {
+                if ($(this).attr('class') == 'pinUnpin hasFixed') {
+                    $('.pinUnpin_block').removeAttr('style');
+                    $('.pinUnpin').html(stringDefault);
+                    $('.pinUnpin').removeClass('hasFixed');
+                    $.cookie('pin_cookie', null);
+                } else {
+                    $('.pinUnpin_block').css({
+                        position: 'fixed',
+                        top: '0',
+                        left: '50%',
+                        marginLeft: halfWidth,
+                        background: 'transparent url("/css/themes/2012/img/bg_70Black.png") repeat left top',
+                        filter: 'none',
+                        zIndex: '1000'
+                    });
+                    $('.pinUnpin').addClass('hasFixed').html(stringVariant);
+                    $.cookie('pin_cookie', 'fixed');
+                }
+            }
+            //PIN UNPIN NORMAL - ESTE � FILHO DIRETO DO ELEMENTO PINUNPIN_BLOCK
+            else {
+                if ($(this).attr('class') == 'pinUnpin hasFixed') {
+                    $(this).parent().removeAttr('style');
+                    $(this).html(stringDefault);
+                    $(this).removeClass('hasFixed');
+                } else {
+                    $(this).parent().css({
+                        position: 'fixed',
+                        top: '0',
+                        //left:'50%',
+                        //marginLeft:halfWidth,
+                        color: '#FFF',
+                        background: 'transparent url("/css/themes/2012/img/bg_70Black.png") repeat left top',
+                        filter: 'none',
+                        zIndex: '1000'
+                    });
+                    $(this).addClass('hasFixed').html(stringVariant);
+                }
+            }
+        });
+        click_pin();
+    }
+    //DISPARA VERIFICA��O DE POSI��O DOS ELEMENTOS AO ROLAR A P�GINA PARA MANIPULA��O DA PAGINA��O
+    if ($('.paginationBlock').length > 0) {
+        $(window).scroll(function() {
+            //POSI��O X,Y DO ELEMENTO "resultTable"
+            var pos_parent = $('.resultTable').position();
+            //POSI��O X,Y DA PAGINA��O
+            var pos_pagination = $('.paginationBlock').position();
+            if (pos_parent.top >= pos_pagination.top) {
+                //$('.pinUnpin_block').css('opacity','0');
+                $('.paginationBlock').fadeOut();
+            } else {
+                //$('.pinUnpin_block').css('opacity','1');
+                $('.paginationBlock').fadeIn();
+            }
+        });
+    }
+    //DISPARA FLY AWAY
+    flyAway();
+    //DISPARA VALIDA��O DO FORMUL�RIO
+    if ($('form.reqValidation').length > 0) {
+        validForm();
+    }
+    //DISPARA LIGHTBOX
+    if ($('.trigger').length > 0) {
+        //$('.trigger').click(function(){
+        $('.trigger').click(function() {
+            if ($(this).attr('href') != 'javascript:void(0)') {
+                $(this).attr('title', $(this).attr('href'));
+                $(this).removeAttr('target');
+                $(this).attr('href', 'javascript:void(0)');
+            }
+            lightBox($(this).attr('title'));
+        });
+    }
+    /**
+     * ### FACEBOOK
+     */
+    $('#fb-root').html('<fb:like send="false" width="450" show_faces="true" action="recommend" font="arial"></fb:like>');
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    /**
+     * ### END FACEBOOK
+     */
+    $(document).ready(function() {
+        $('iframe').each(function(index, element) {
+            $(element).removeAttr('allowfullscreen');
+        });
+        //MANIPULA AS MINI GALERIAS DE FOTO, V�DEO E A�DIO NAS P�GINAS INTERNAS
+        if ($('.galleryContainer').length > 0) {
+            gallery();
+        }
+    });
+});
+// end ready
+function mascaraCpfCnpj(obj, pessoa_fisica) {
+    if (pessoa_fisica == "F") {
+        $(obj).unmask().removeClass('maskCnpj').addClass('maskCpf').mask('999.999.999-99').keypress();
+    } else if (pessoa_fisica == "J") {
+        $(obj).unmask().removeClass('maskCpf').addClass('maskCnpj').mask('99.999.999/9999-99').keypress();
+    }
+}
+
+function click_pin() {
+    if ($.cookie('pin_cookie') == 'fixed') {
+        $('.pinUnpin').click();
+        var offset = $('.topResult').offset();
+        var offsetY = offset.top;
+        $('html,body').animate({
+            scrollTop: offsetY
+        }, 600);
+    }
+}
+
+function TiposRelatorio131() {
+    if ($("#relatorio").val() == "1") {
+        $('.receita').show();
+        $('.despesa2').hide();
+    } 
+	
+	if ($("#relatorio").val() == "2") {
+        $('.receita').hide();
+        $('.despesa2').show();
+    }
+	
+	if ($("#relatorio").val() == "3") {
+		$('.receita').hide();
+        $('.despesa2').hide();		
+        $('.outros').hide();			
+		
+	}
+}
+//VALIDA��O SIDE-CLIENT FORMUL�RIO
+function validForm() {
+    $('p.error').prev().css({
+        borderColor: '#990000',
+        borderStyle: 'dashed'
+    });
+}
+//LIGHTBOX
+function lightBox(url) {
+    //Dispara requisi��o do formul�rio
+    $.post(url, function(resposta) {
+        //CRIA O ELEMENTO LIGHTBOX
+        $('#lightbox_container').html(resposta);
+        //troca funcao do bot�o submit
+        $('#btBuscar_131').attr('onclick', 'return envia131()')
+        konsertina();
+        //FECHA O LIGHTBOX
+        $('#btnFechar').click(function() {
+            $('#lightbox').remove();
+        });
+        //alert('#1 - '+$('#situacao_captcha').val());
+        //VERIFICA SE O CAPTCHA ESTA HABILITADO
+        if ($('#situacao_captcha').val() == '1') {
+            Recaptcha.create($('#publickey').val(), "captcha", {
+                theme: "red",
+                callback: Recaptcha.focus_response_field
+            });
+        }
+    });
+    $('#mainWrapper').after('<div id="lightbox"><div id="lightbox_container"><div class="preloader"><p><strong>Aguarde, carregando conte&uacute;do...</strong></p><img src="/css/themes/2012/img/loader.gif" width="200" height="19" alt="preloader" /></div></div></div>');
+    $(document).keypress(function(e) {
+        var k = e.which ? e.which : e.keyCode;
+        if (k == 27) {
+            $('#lightbox').remove();
+        }
+    });
+    return false;
+}
+
+function envia131() {
+    var params = $('#form131').serialize();
+    $.post($('#form131').attr('action'), params, function(resposta) {
+        $('#lightbox_container').html(resposta);
+        $('#btBuscar_131').attr('onclick', 'return envia131()');
+        //VERIFICA SE O CAPTCHA ESTA HABILITADO
+        if ($('#situacao_captcha').val() == '1') {
+            Recaptcha.create($('#publickey').val(), "captcha", {
+                theme: "red",
+                callback: Recaptcha.focus_response_field
+            });
+        }
+    });
+    return false;
+}
+
+// PLUGIN SHOW-HIDE
+function showHide(class_mapper) {
+    // default variables
+    var class_mapper = (class_mapper == '' || class_mapper == undefined) ? '.details' : class_mapper;
+    var icon = '<span class="details_expand"></span>'
+    // hide all content
+    $(class_mapper).children('li').find('.content').hide();
+    // append icon in summary element
+    $(class_mapper).children('li').find('.summary').each(function(index, element) {
+        $(element).prepend(icon);
+    });
+    // click summary
+    $('.summary', class_mapper).toggle(function() {
+        $(this).next('.content').slideDown();
+        $(this).children('.details_expand').addClass('details_collapse');
+    }, function() {
+        $(this).next('.content').slideUp();
+        $(this).children('.details_expand').removeClass('details_collapse');
+    });
+}
+//GALERIAS
+function gallery() {
+    $('<span class="icon_expand"></span>').prependTo('.galleryContainer p.header');
+    $('.galleryContainer ul').hide();
+    $('.galleryContainer:first ul').show()
+    $('.galleryContainer p.header').click(function() {
+        var parent = $(this).parent();
+        var child = parent.find('ul');
+        var icon = parent.find('span.icon_expand');
+        if (child.is(':hidden')) {
+            icon.addClass('icon_colapse');
+            $(this).addClass('open');
+            child.slideDown();
+        } else {
+            $(this).removeClass('open');
+            icon.removeClass('icon_colapse');
+            child.slideUp();
+        }
+    });
+}
+
+function printArea(element) {
+    $(element).printArea();
+}
+/*  END OF JQUERY.FUNCTIONS.JS  */

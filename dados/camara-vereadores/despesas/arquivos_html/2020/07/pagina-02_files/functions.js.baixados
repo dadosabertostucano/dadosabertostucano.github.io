@@ -1,0 +1,100 @@
+// START READY
+$(document).ready(function () {
+	$('#acessibilidade').html('<ul id="barraAcessibilidade"><li><a href="#mainContent"><img src="'+path+'/img/acessibilidade/icoPulaConteudo.gif" alt="Para navega&ccedil;&atilde;o via teclado, clique e v&aacute; direto para o conte&uacute;do" />pular para o conte&uacute;do</a></li><li><a href="'+path+'/acessibilidade"><img src="'+path+'/img/acessibilidade/icoAcessibilidade.gif" alt="Saiba como este site est&aacute; preparado para todos os visitantes" />acessibilidade</a></li><li><a href="'+path+'/acessibilidade/leitorTela"><img src="'+path+'/img/acessibilidade/icoScreenReaders.gif" alt="Saiba mais sobre tecnologias assistivas" />Leitor de tela</a></li><li><a href="'+path+'/fonte/normalFonte" class="normal" rel="nofollow"><img src="'+path+'/img/acessibilidade/icoFontNormal.gif" alt="Clique para deixar a fonte no tamanho normal" />fonte normal</a></li><li><a href="javascript:void(0)" id="smallerFont" class="diminuir" rel="nofollow"><img src="'+path+'/img/acessibilidade/icoFontMenos.gif" alt="Clique para diminuir o tamanho da fonte" />diminuir fonte</a></li><li><a href="javascript:void(0)" id="biggerFont" class="aumentar" rel="nofollow"><img src="'+path+'/img/acessibilidade/icoFontMais.gif" alt="Clique para aumentar o tamanho da fonte" />aumentar fonte</a></li><li class="last-child"><a href="'+path+'/fonte/contraste"><img src="'+path+'/img/acessibilidade/icoContraste.gif" alt="Clique para aplicar o contraste" />contraste</a></li></ul>');
+
+	if ($('#dataInicial').length == 0){
+		$('#periodo').html('<label for="dataInicial">Per&iacute;odo</label><input type="text" name="dataInicial" id="dataInicial" value="'+$('#dataInicialH').val()+'" class="maskDate" /> &minus; <label for="dataFinal" class="acessibilidade">Ate:</label><input type="text" name="dataFinal" id="dataFinal" value="'+$('#dataFinalH').val()+'" class="maskDate" />');
+	}
+
+	if ($('#ano').length > 0){
+		data('N');
+	}
+
+	$('#ano').on('change', function(){
+		//data('S');
+		data('N');
+	});
+	
+	 $('.maskAno').mask('0000');
+});
+
+
+function dataAtual(){
+	var data = new Date();
+	var dia = data.getDate();
+	var mes = data.getMonth();
+	var ano = data.getFullYear();
+
+	if (dia.toString().length == 1){
+		dia = '0'+dia;
+	}
+	if (mes.toString().length == 1){
+		mes = '0'+(mes+1);
+	}
+
+	return ano+'-'+mes+'-'+dia;
+}
+
+function anoAtual(){
+	var data = new Date();
+	return data.getFullYear();
+}
+
+function diferencaDias(dataInicial, dataFinal){
+	return (((Date.parse(dataInicial)) - (Date.parse(dataFinal))) / (24 * 60 * 60 * 1000));
+}
+
+function data(limpar){
+	$('.maskDate').datepicker("destroy");
+	var ano;
+
+	if ($('#ano').val() != '-'){
+		//LIMPA OS CAMPOS
+		if (limpar == 'S'){
+			$('#dataInicial').val('');
+			$('#dataFinal').val('');
+		}
+
+		ano = $('#ano').val();
+
+		$('.maskDate').datepicker({
+					showAnim:'drop',
+					duration:'normal',
+					showOptions:{direction:'up'},
+					dateFormat: "dd/mm/yy",
+					monthNames: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+					monthNamesShort: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
+					dayNames: ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"],
+					dayNamesShort: ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
+					dayNamesMin: ["D", "S", "T", "Q", "Q", "S", "S"],
+					nextText: "",
+					prevText: "",
+					changeMonth:true,
+					changeYear:true,
+					minDate: diferencaDias(ano+'-01-01', dataAtual()),
+					maxDate: '+'+diferencaDias(ano+'-12-31', dataAtual())+'D',
+					yearRange:'1900:2030'
+				});
+
+
+	} else {
+		$('.maskDate').datepicker({
+					showAnim:'drop',
+					duration:'normal',
+					showOptions:{direction:'up'},
+					dateFormat: "dd/mm/yy",
+					monthNames: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+					monthNamesShort: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
+					dayNames: ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"],
+					dayNamesShort: ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
+					dayNamesMin: ["D", "S", "T", "Q", "Q", "S", "S"],
+					nextText: "",
+					prevText: "",
+					changeMonth:true,
+					changeYear:true,
+					yearRange:'1900:2030'
+				});
+	}
+	
+	
+}
