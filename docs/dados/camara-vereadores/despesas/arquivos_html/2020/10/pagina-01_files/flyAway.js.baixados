@@ -1,0 +1,36 @@
+﻿/*------------------------------------------------------------------------------------
+	PLUGIN FLY AWAY
+	
+	PLUGIN PARA ANIMAR A PÁGINA ATÉ O TOPO
+	
+	autor: Thiago Teles Pereira - Web designer
+	empresa: IMAP - Instituto Municipal de Administração Pública
+	criado em: 27/04/2012
+	versão: 1.0
+-------------------------------------------------------------------------------------*/
+
+function flyAway(){
+	
+	var flyAwayBar = '<div id="flyAway_bar"><a href="javascript:void(0)" id="gotoTop">ir para o topo</a></div>';
+	
+	//INSERE O ELEMENTO NO DOM, MAS PERMANECE OCULTO
+	$(flyAwayBar).insertAfter('#mainWrapper').hide();
+	
+	//VERIFICA POSIÇÃO DA PÁGINA E MOSTRA OU OCULTA A FLY AWAY BAR	
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 300){
+			$('#flyAway_bar').fadeIn();
+		}
+		else{
+			$('#flyAway_bar').fadeOut();
+		}
+	});
+	
+	//ANIMA A ROLAGEM NA PÁGINA
+	$('#flyAway_bar #gotoTop').click(function(){
+		$('html,body').animate({
+			scrollTop:0
+		},600);
+	});
+}
+

@@ -1,0 +1,56 @@
+// JavaScript Document
+/*
+ *	FUNCAO getOptionValues(selectInicial, selectSecundario, url);
+ *	Faz o AJAX entre COMBOS/SELECT onde o retorno do segundo é dependente do primeiro
+ *	
+ */
+function getOptionValues(selectInicial, selectSecundario, url){
+	idSecundario = $(selectInicial).val();
+	
+	if ( idSecundario === '' || idSecundario == '-'){
+		return false;
+	}
+	$(selectSecundario).html("<option value='' >Selecione...</option>");
+	$.getJSON( path + url + $("#cod").val() + "/" + idSecundario, function (data){
+		
+		var option = new Array();
+	
+		$.each(data, function(i, obj){
+
+	    	option[i] = document.createElement('option');
+	    	$( option[i] ).attr( {value : obj.id} );
+	 		$( option[i] ).append( obj.name );
+
+	    	$(selectSecundario).append( option[i] );
+	
+		});
+	});
+}
+
+function getSelectOptionValues(selectInicial, selectSecundario, url, id){
+	idSecundario = $(selectInicial).val();
+	
+	if ( idSecundario === '' || idSecundario == '-'){
+		idSecundario = '0';
+	}
+	$(selectSecundario).html("<select name=\""+id+"\" id=\""+id+"\"><option value=\"\" ></option><select>");
+	$.getJSON( path + url + $("#cod").val() + "/" + idSecundario, function (data){
+		
+		var option = new Array();
+		$('#'+id).html('');
+		$.each(data, function(i, obj){
+
+	    	option[i] = document.createElement('option');
+	    	$( option[i] ).attr( {value : obj.id} );
+	 		$( option[i] ).append( obj.name );
+
+			if (obj.id == parseInt($('#'+id+'h').val())){
+				$( option[i] ).attr('selected', 'selected');
+			}
+	    	$('#'+id).append( option[i] );
+		});
+		
+	});
+}
+
+	

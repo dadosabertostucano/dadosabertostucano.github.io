@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*------------------------------------------------------------------------------------
+	STYLESHEET PORTAL DOS CLIENTES 2012 - WEB FONTES
+	
+	autor: Thiago Teles Pereira - Web Designer
+	empresa: IMAP - Instituto Municipal de Administração Pública
+	criado em: 19/03/2012
+	versão: 1.0
+-------------------------------------------------------------------------------------*/
+
+/*TIPOGRAFIA*/
+@font-face {
+    font-family:'AvantGardeBkBTBook';
+    src:url('avantgarde-book/avant_garde_book_bt-webfont.eot');/* IE9 */
+    src:url('avantgarde-book/avant_garde_book_bt-webfont.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */
+         url('avantgarde-book/avant_garde_book_bt-webfont.woff') format('woff'),/* Navegadores Modernos */
+         url('avantgarde-book/avant_garde_book_bt-webfont.ttf') format('truetype');/* Safari, Android, iOS */     
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'AvantGardeBold';
+    src:url('avantgarde-book_bold/avantgarde-book_bold-webfont.eot');/* IE9 */
+    src:url('avantgarde-book_bold/avantgarde-book_bold-webfont.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */
+         url('avantgarde-book_bold/avantgarde-book_bold-webfont.woff') format('woff'),/* Navegadores Modernos */
+         url('avantgarde-book_bold/avantgarde-book_bold-webfont.ttf') format('truetype');/* Safari, Android, iOS */     
+    font-weight: normal;
+    font-style: normal;
+}
+
+

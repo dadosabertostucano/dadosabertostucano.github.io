@@ -1,0 +1,105 @@
+﻿/*------------------------------------------------------------------------------------
+	BEHAVIIOR EXPANSIBLE INDEX, KORSENTINA
+
+	autor: Thiago Teles Pereira - Web Designer / Wilson Mendes - Analista de Sistemas
+	contato: thiago.teles@portalimap.org.br / willmendesneto@gmail.com
+	empresa: IMAP - Instituto Municipal de Administração Pública
+	criado em: 12/04/2012
+	versão: 1.0
+
+	NÃO REALIZE ALTERAÇÕES NESTE ARQUIVO SEM ANTES
+	ENTRAR EM CONTATO COM OS AUTORES.
+-----------------------------------------------------------------------------------*/
+
+function expansibleIndex(){
+	//oculta todo o conteúdoi dentro do container "index_explanation"
+	$('.index_explanation').hide();
+
+	//inseri a tag span para inclusão do ícone antes do elemento de link
+	$('<span class="index_expand"></span>').insertBefore('ul.expansibleIndex li .index_title a');
+
+	//behavior para mostrar conteúdo ocultado no container "index_explanation"
+	$('.index_title').click(function(){
+
+		var parent = $(this).parent();
+		var child = parent.find('div.index_explanation');
+		var icon = parent.find('span.index_expand');
+
+
+		if(child.is(':hidden')){
+			icon.addClass('index_colapse');
+			$(this).addClass('open');
+			child.slideDown();
+		}
+		else{
+			$(this).removeClass('open');
+			icon.removeClass('index_colapse');
+			child.slideUp();
+		}
+
+	 });
+}
+
+
+
+function konsertina(){
+	//oculta todo o conteúdoi dentro do container "expansibleIndex"
+	$('ul.konsertina li .expansibleIndex').hide();
+
+	//inseri a tag span para inclusão do ícone antes do elemento de link
+	$('<span class="konsertina_expand"></span>').insertBefore('ul.konsertina li .konsertina_title a');
+	//behavior para mostrar conteúdo ocultado no container "expansibleIndex"
+	$('.konsertina_title').click(function(){
+
+		var parent = $(this).parent();
+		var child = parent.find('.expansibleIndex');
+		var icon = parent.find('span.konsertina_expand');
+
+
+		if(child.is(':hidden')){
+			icon.addClass('konsertina_colapse');
+			$(this).addClass('open');
+			child.slideDown();
+		}
+		else{
+			$(this).removeClass('open');
+			icon.removeClass('konsertina_colapse');
+			child.slideUp();
+		}
+
+	 });
+
+
+	// FEATURE - START OPEN
+	//ADIÇÃO DA FUNCIONALIDADE "START OPEN" SOLICITAÇÃO REALIZADA NO DIA 30/04/2013 POR VIVIANE ESTRELA
+	if($('.startOpen').length > 0){
+		$('.startOpen').click();
+	}
+
+	//FEATURE - CONTROLS
+	function insertControls(labelControlState1,labelControlState2) {
+		// default
+		var labelControlState1 = (labelControlState1 == '' || labelControlState1 == undefined) ? 'Recolher todos' : labelControlState1;
+		var labelControlState2 = (labelControlState2 == '' || labelControlState2 == undefined) ? 'Expandir todos' : labelControlState2;
+		var template = (template == '' || template == undefined) ? '<ul class="konsertinaControls"><li><a href="javascript:void(0)" class="roundedButton" id="toggleState">'+ labelControlState1 + '</a></li></ul>' : template;
+
+		$('.konsertina:first-of-type', '#containerResultSearch').before(template);
+		$('.konsertina', '#containerResultSearch').addClass('linkedControls');
+
+
+		$('#toggleState').toggle(function() {
+			$('.konsertina_title', '.linkedControls').click();
+			$(this).html(labelControlState2);
+		}, function() {
+			$('.konsertina_title', '.linkedControls').click();
+			$(this).html(labelControlState1);
+		});
+
+	}
+
+	$(window).load(function() {
+		if ($('.konsertinacontrols').length > 0) {
+			insertControls();
+		}
+	});
+}

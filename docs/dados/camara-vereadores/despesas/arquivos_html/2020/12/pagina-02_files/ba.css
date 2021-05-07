@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*ADICIONA A IMAGEM DA BANDEIRA DO ESTADO DA BAHIA COMO IMAGE REPLACEMENT*/
+#header #uf_prefeitura{
+	background:transparent url('../img/uf_prefeitura/bg_estado_BA.png') no-repeat left bottom;
+}

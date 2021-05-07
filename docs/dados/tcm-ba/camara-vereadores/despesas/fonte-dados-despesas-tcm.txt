@@ -1,0 +1,18 @@
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Fonte: https://www.tcm.ba.gov.br/consulta-de-despesas/
+
+A ideia é colocar um link no DataFrame para acesso a detalhes, levando diretamente para o site do TCM BA. 
+
+Será necessário iterar sobre as linhas usando informações do link: 
+
+
+https://www.tcm.ba.gov.br/consulta-de-despesas/detalhe-despesa?entidade=807&ano=2010&orgao=1&unidOrca=1001&fase=P&empenho=1&nuDocumento=1&valor=28251.66&data=2010-01-20
+
+https://www.tcm.ba.gov.br/consulta-de-despesas/detalhe-despesa/?entidade=807&ano={ano}&orgao=1&unidOrca=1001&fase=P&empenho={empenho}&nuDocumento={documento}&valor={valor}&data={ano-mes-dia}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

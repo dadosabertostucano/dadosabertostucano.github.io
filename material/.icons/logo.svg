@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50000px" height="50000px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 50000 50000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str2 {stroke:#FEFEFE;stroke-width:295.276}
+    .str1 {stroke:#373435;stroke-width:295.276}
+    .str0 {stroke:#00587A;stroke-width:2.3622}
+    .fil1 {fill:none}
+    .fil2 {fill:#FEFEFE}
+    .fil0 {fill:#00587A}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0 str0" cx="25000" cy="25000" r="25000"/>
+  <line class="fil1 str1" x1="33561" y1="19077" x2="40032" y2= "28331" />
+  <circle class="fil2 str2" cx="35310" cy="8152" r="929"/>
+  <circle class="fil2 str2" cx="23234" cy="46187" r="929"/>
+  <circle class="fil2 str2" cx="16970" cy="12818" r="929"/>
+  <circle class="fil2 str2" cx="39604" cy="28042" r="929"/>
+  <circle class="fil2 str2" cx="39539" cy="32642" r="929"/>
+  <circle class="fil2 str2" cx="18843" cy="27735" r="929"/>
+  <circle class="fil2 str2" cx="9261" cy="25475" r="929"/>
+  <circle class="fil2 str2" cx="42058" cy="22424" r="929"/>
+  <circle class="fil2 str2" cx="26269" cy="3374" r="929"/>
+  <circle class="fil2 str2" cx="23686" cy="9734" r="929"/>
+  <circle class="fil2 str2" cx="27851" cy="45250" r="929"/>
+  <circle class="fil2 str2" cx="32692" cy="19407" r="929"/>
+  <circle class="fil2 str2" cx="26830" cy="32255" r="1060"/>
+  <polyline class="fil1 str2" points="23234,46187 27851,45250 39539,32643 39604,28042 42058,22424 35310,8152 26269,3374 23686,9734 16970,12818 9261,25475 18843,27735 23038,46381 "/>
+  <path class="fil1 str2" d="M23234 47116l4164 -14974 5293 -12734 -16079 -7042 2711 15175 7491 4552 11796 509 -5564 -13359 1808 -10849c0,0 -10869,1380 -10558,1421 312,40 3713,35968 3713,35968"/>
+  <line class="fil1 str2" x1="31997" y1="19566" x2="8669" y2= "25717" />
+  <line class="fil1 str2" x1="42620" y1="22569" x2="24014" y2= "9719" />
+  <line class="fil1 str2" x1="33561" y1="19077" x2="40032" y2= "28331" />
+  <polygon class="fil2 str2" points="9941,24641 10284,25141 18352,23002 16732,13869 16536,13810 "/>
+  <path class="fil2 str2" d="M27813 31535c125,114 183,271 194,460 3461,150 6923,300 10384,450 -1690,-4055 -3380,-8109 -5071,-12164 -309,199 -609,244 -903,169 -1535,3695 -3069,7390 -4604,11085z"/>
+ </g>
+</svg>

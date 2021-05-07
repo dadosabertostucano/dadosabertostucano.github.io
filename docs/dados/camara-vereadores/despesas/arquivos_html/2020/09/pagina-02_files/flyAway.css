@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+/*------------------------------------------------------------------------------------
+	STYLESHEET FLY AWAY
+	
+	autor: Thiago Teles Pereira - Web designer
+	empresa: IMAP - Instituto Municipal de Administração Pública
+	criado em: 27/04/2012
+	versão: 1.0
+-------------------------------------------------------------------------------------*/
+#flyAway_bar{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:80px;
+	height:80px;
+	/*border:1px solid #000;*/
+	margin:0 4% 0 0;
+	background:transparent url('gotoTop.png') no-repeat center center;
+	background-size:60%;
+	transition:all 300ms ease;/*W3C*/
+	-moz-transition:all 300ms ease;/*Firefox 4+*/
+	-webkit-transition:all 300ms ease;/*Chrome e Safari*/
+	-o-transition:all 300ms ease;/*Opera*/
+	opacity:0.5;/*IE9, Firefox 2+, Chrome 4+, Safari 4+, Opera 10+*/
+	filter:alpha(opacity=50);/*IE7*/
+	display:block;
+}
+#flyAway_bar:hover{
+	background-size:100%;
+	opacity:1;/*IE9, Firefox 2+, Chrome 4+, Safari 4+, Opera 10+*/
+	filter:alpha(opacity=100);/*IE7*/
+}
+#flyAway_bar *{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	text-indent:-1000em;
+	display:block;
+}

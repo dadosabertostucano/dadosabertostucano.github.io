@@ -1,0 +1,4 @@
+
+Fonte dos dados: https://www.tcm.ba.gov.br/edital-licitacao-municipio/ 
+
+Os dados da Câmara vão de 2010 a 2020, sendo que agluns anos não possuem indicação que houve edital. 
