@@ -2,15 +2,15 @@
 template: overrides/main.html
 ---
 
-![imagem](https://dadosabertostucano.org/assets/images/logo-dados-abertos.png)
+<p align="center">
+<img src="/../assets/images/logo-dados-abertos-url.svg" alt="" style="width: 90%; height: auto;">
+</p> 
 
 # Acessibilidade
 
 ## Introdução 
 
-Pretende-se fornecer acessibilidade de **Libras**, **Audio-transcrição** e recursos para **Portadores de baixa visão**. 
-
-
+Pretende-se fornecer acessibilidade de **Libras**, **Audio-transcrição** e recursos para **pessoas com baixa visão**. 
 
 <div vw class="enabled">
     <div vw-access-button class="active"></div>

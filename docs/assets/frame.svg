@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="5631px" height="4656px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5631 4656"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#00587A;stroke-width:17.7165}
+    .str2 {stroke:#00587A;stroke-width:2.36221}
+    .str0 {stroke:#009485;stroke-width:0.9}
+    .fil1 {fill:none}
+    .fil0 {fill:#00587A}
+    .fil2 {fill:#00587A}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_3066212187392">
+   <g>
+    <path class="fil0 str0" d="M1 0l5629 0 0 2420 -5571 0c-32,0 -58,-26 -58,-58l0 -2362z"/>
+    <g>
+     <line class="fil1 str1" x1="3600" y1="3447" x2="2490" y2= "4331" />
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 4985.25 3580.52)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 117.02 2363.88)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 4255.67 1315.95)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 2522.82 4275.46)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 1944.89 4303.44)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 2398.3 1668.01)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 2606.71 447.944)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 3247.17 4539.25)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 5513.98 2408.63)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 4695.46 2134.47)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 270.785 2935.88)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.175144 2.79872 -2.79931 0.175108 3552.14 3340.35)" r="42"/>
+     <circle class="fil2 str1" transform="matrix(0.19983 3.19319 -3.19385 0.199788 1893.77 2705.73)" r="42"/>
+     <polyline class="fil1 str1" points="117,2364 271,2936 1945,4303 2523,4275 3247,4539 4985,3581 5514,2409 4695,2134 4256,1316 2607,448 2398,1668 91,2341 "/>
+     <path class="fil1 str1" d="M0 2371l1912 405 1640 564 758 -2073 -1884 460 -512 975 29 1485 1633 -803 1375 141c0,0 -258,-1353 -261,-1313 -3,39 -4485,748 -4485,748"/>
+     <line class="fil1 str1" x1="3527" y1="3254" x2="2572" y2= "376" />
+     <line class="fil1 str1" x1="3233" y1="4611" x2="4700" y2= "2175" />
+     <line class="fil1 str1" x1="3600" y1="3447" x2="2490" y2= "4331" />
+     <polygon class="fil2 str1" points="2717,527 2657,574 2988,1569 4122,1294 4128,1269 "/>
+     <path class="fil2 str1" d="M1992 2823c-13,17 -33,25 -56,28 8,436 16,871 25,1307 495,-244 991,-488 1486,-732 -27,-37 -35,-74 -28,-112 -476,-163 -951,-327 -1427,-491z"/>
+    </g>
+   </g>
+   <path class="fil0 str2" d="M226 2415c-3,-1 60,22 61,20 0,-3 1479,310 1479,310l207 -154 94 -179 -1834 -35 -7 38z"/>
+  </g>
+ </g>
+</svg>

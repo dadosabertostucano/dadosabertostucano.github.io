@@ -2,8 +2,9 @@
 template: overrides/main.html
 ---
 
-![imagem](https://dadosabertostucano.org/assets/images/logo-dados-abertos-sem-url.svg)
-
+<p align="center">
+<img src="/../assets/images/logo-dados-abertos-url.svg" alt="" style="width: 90%; height: auto;">
+</p> 
 
 # Sobre  
 

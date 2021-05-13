@@ -4,7 +4,9 @@ template: overrides/main.html
 
 # Despesas 
 
-![imagem](https://dadosabertostucano.org/assets/images/logo-dados-abertos.png)
+<p align="center">
+<img src="/../assets/images/logo-dados-abertos-url.svg" alt="" style="width: 90%; height: auto;">
+</p> 
 
 ## Introdução 
 

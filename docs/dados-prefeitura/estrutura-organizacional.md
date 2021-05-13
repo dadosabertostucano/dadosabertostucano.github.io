@@ -2,7 +2,9 @@
 template: overrides/main.html
 ---
 
-![imagem](https://dadosabertostucano.org/assets/images/logo-dados-abertos.png)
+<p align="center">
+<img src="/../assets/images/logo-dados-abertos-url.svg" alt="" style="width: 90%; height: auto;">
+</p> 
 
 # Estrutura Organizacional 
 

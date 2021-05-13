@@ -2,7 +2,9 @@
 template: overrides/main.html
 ---
 
-![imagem](https://dadosabertostucano.org/assets/images/logo-dados-abertos.png)
+<p align="center">
+<img src="/../assets/images/logo-dados-abertos-url.svg" alt="" style="width: 90%; height: auto;">
+</p> 
 
 # Município de Tucano/BA 
 
@@ -21,6 +23,11 @@ A cidade de Tucano/BA, é um município do nordeste da Bahia, segundo dados do I
 ## Tracupá 
 
 <!-- 
+
+![imagem](/../assets/images/logo-dados-abertos-url.svg)
+
+
+
 === "Questão 1"
 
     Cálculo o seguinte limite: $\displaystyle\lim_{x\to 0} \sqrt[3]{x^4+2}$ 

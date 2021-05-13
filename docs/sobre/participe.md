@@ -2,11 +2,11 @@
 template: overrides/main.html
 ---
 
-![imagem](https://dadosabertostucano.org/assets/images/logo-dados-abertos.png)
+<p align="center">
+<img src="/../assets/images/logo-dados-abertos-url.svg" alt="" style="width: 90%; height: auto;">
+</p> 
 
 # Faça parte do projeto 
-
-## Introdução 
 
 Todo o trabalho desenvolvido no [**Dados Abertos Tucano**](https://dadosabertostucano.org) é **voluntário**. Não fazemos compensações financeiras ou favores expúrios. Não cobramos por treinamentos ou mentorias. Não solicitamos dados pessoais/cadastrais para participar do grupo. Solicitamos apenas seu nome ou como você deseja ser chamada/chamado, contato de e-mail válido e contato de _WhatsApp_ (principal meio de comunicação). 
 

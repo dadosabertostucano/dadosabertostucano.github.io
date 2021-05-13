@@ -1,5 +1,6 @@
 # **Dados disponíveis** 
 
+
 <style>
 img {
   border-radius: 5px 5px 5px 5px;
@@ -40,13 +41,21 @@ img {
   padding: 0px;
   text-align: center;
   background-color:white;
-  border-radius: 5px;
+  border-radius: 7px;
   margin-bottom: 30px;
   margin-left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 }
 
 /* Parte inicial */
 </style>
+
+
+<p align="center">
+<img src="/../assets/images/logo-dados-abertos-url.svg" alt="" style="width: 90%; height: auto;">
+</p> 
+
+
 
 <div class="column">
           <div class="card">

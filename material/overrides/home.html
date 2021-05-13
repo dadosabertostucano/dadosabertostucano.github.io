@@ -385,21 +385,23 @@ img {
 
 /* Style the counter cards */
 .card {
-  display: flex;
+  /*display: flex;*/
+  display: inline-block;
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 50px;
   width: 200px;
   height: 300px;
-  margin-bottom: 0.5em;	
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 3px 3px 5px #00000040;
+  border-radius: 7px;
   /* box-shadow: 0 8px 14px 0 rgb(49, 106, 145); */
   /*box-shadow: 1px 1px 1px 1px rgba(238, 232, 232, 0.22), -5px -5px 30px 7px rgba(224, 221, 221, 0.22);*/
   /*cursor: pointer;*/
   /*transition: 0.4s;*/
-  padding: 0px;
+
   text-align: right;
-  background-color:#00587A;
-  border-radius: 5px;
+  /*background-color:#00587A;*/
 }
 
 /*.card:hover {*/
@@ -411,12 +413,15 @@ img {
     /* Parte inicial */
   
 </style>
+
+<style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}.tx-containere{padding-top:1rem;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 -600 7582 2480'><path d='M1992 2823c-13,17 -33,25 -56,28 8,436 16,871 25,1307 495,-244 991,-488 1486,-732 -27,-37 -35,-74 -28,-112 -476,-163 -951,-327 -1427,-491z' style='fill: white' /></svg>") no-repeat bottom,linear-gradient(to bottom,var(--md-primary-fg-color),rgb(49, 106, 145) 99%,#fff 99%)}.tx-hero{margin:0 .8rem;color:var(--md-primary-bg-color)}.tx-hero h1{margin-bottom:1rem;color:currentColor;font-weight:700}.tx-hero__content{padding-bottom:6rem}.tx-hero .md-button{margin-top:.5rem;margin-right:.5rem;color:var(--md-primary-bg-color)}.tx-hero .md-button--primary{background-color:var(--md-primary-bg-color);color:hsla(280deg,37%,48%,1);border-color:var(--md-primary-bg-color)}.tx-hero .md-button:focus,.tx-hero .md-button:hover{background-color:var(--md-accent-fg-color);color:var(--md-default-bg-color);border-color:var(--md-accent-fg-color)}@media screen and (max-width:30em){.tx-hero h1{font-size:1.4rem}}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}.tx-hero{display:flex;align-items:stretch}.tx-hero__content{max-width:19rem;margin-top:3.5rem;padding-bottom:14vw}.tx-hero__image{width:38rem;order:1;transform:translateX(4rem)}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}.tx-hero__image{transform:translateX(8rem)}}</style>
+
 <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}.tx-container{padding-top:1rem;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 -600 7582 2480'><path d='M47 775c375,66 707,166 1006,294 132,59 250,129 343,208 54,45 116,79 172,116 187,128 425,168 707,128 1152,-153 2280,-372 3411,-582 651,-96 1297,-162 1932,-174 0,363 0,726 0,1090 -2525,0 -5050,0 -7775,1 2,-361 3,-721 4,-1081z' style='fill: white' /></svg>") no-repeat bottom,linear-gradient(to bottom,var(--md-primary-fg-color),rgb(49, 106, 145) 99%,#fff 99%)}.tx-hero{margin:0 .8rem;color:var(--md-primary-bg-color)}.tx-hero h1{margin-bottom:1rem;color:currentColor;font-weight:700}.tx-hero__content{padding-bottom:6rem}.tx-hero .md-button{margin-top:.5rem;margin-right:.5rem;color:var(--md-primary-bg-color)}.tx-hero .md-button--primary{background-color:var(--md-primary-bg-color);color:hsla(280deg,37%,48%,1);border-color:var(--md-primary-bg-color)}.tx-hero .md-button:focus,.tx-hero .md-button:hover{background-color:var(--md-accent-fg-color);color:var(--md-default-bg-color);border-color:var(--md-accent-fg-color)}@media screen and (max-width:30em){.tx-hero h1{font-size:1.4rem}}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}.tx-hero{display:flex;align-items:stretch}.tx-hero__content{max-width:19rem;margin-top:3.5rem;padding-bottom:14vw}.tx-hero__image{width:38rem;order:1;transform:translateX(4rem)}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}.tx-hero__image{transform:translateX(8rem)}}</style>
   <section class="tx-container">
     <div class="md-grid md-typeset">
       <div class="tx-hero">
         <div class="tx-hero__image">
-          <img src="assets/images/illustration7.png" alt="">
+          <img src="assets/images/illustration9.png" alt="">
         </div>
         <div class="tx-hero__content">
           <h1>Acesse <strong>Dados Abertos</strong></h1>
@@ -470,11 +475,27 @@ img {
           </div>
     </div>
 </center>
-  </section>
+</section>
 
-   <!-- Seção de ebooks-->
-   <section class="tx-contai">
-    <div class="md-grid md-typeset"></div>
+<section class="tx-contai">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
+      <div class="tx-hero__image">
+        <img src="assets/images/illustration10.png" alt="">
+      </div>
+      <div class="tx-hero__content">
+        <h1>Fomentar a transparência e os dados abertos em Tucano.</strong></h1>
+        <h1>Queremos que tucanenses possam acessar informações sobre a cidade de maneira rápida e fácil.</strong></h1>
+        <a href="/sobre/participe/" title="Faça parte do projeto" class="md-button">
+          Faça parte do projeto
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Seção de ebooks-->
+<section class="tx-contai">
+  <div class="md-grid md-typeset"></div>
       <div class="explore">
        </div>
        <center>
@@ -508,6 +529,33 @@ img {
     </div>
 </center>
 </section>
+
+<!-- Seção de informações-->
+
+<section class="tx-containere">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
+      <div class="tx-hero__image">
+        <img src="assets/images/illustration12.png" alt="">
+      </div>
+      <div class="tx-hero__content">
+        <h1><strong>Somos uma iniciativa da sociedade civil organizada, apartidária e sem fins lucrativos.</strong></h1>
+        <h1><strong>Fomentamos a participação da população com mais cidadania, visando a defesa do interesse público e auxiliar no combate à corrupção.</strong></h1> 
+        <a href="/dados-prefeitura/folha-de-pessoal/" title="Faça parte do projeto" class="md-button">
+          Sálario de servidores Prefeitura 
+        </a>
+
+        <a href="/dados-camara-vereadores/folha-de-pessoal/" title="Faça parte do projeto" class="md-button">
+          Sálario de servidores Câmara
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 <!-- Seção de ebooks-->
 <section class="tx-containo">
@@ -546,11 +594,63 @@ img {
 </center>
 </section>
 
+<section class="tx-contai">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
+      <div class="tx-hero__image">
+        <img src="assets/images/illustration14.png" alt="">
+      </div>
+      <div class="tx-hero__content">
+        <h1>Redes Sociais.</strong></h1>
+        <h1>Publicamos Boletins de Casos de COVID-19 e Diários Oficiais da 
+          Prefeitura e Câmara Municipal de Tucano.</strong></h1>
+        <a href="https://www.instagram.com/dadostucano/" title="Faça parte do projeto" class="md-button">
+          Instagram
+        </a>
+        <a href="https://www.tiktok.com/@dadostucano" title="Faça parte do projeto" class="md-button">
+          TikTok
+        </a>
+        <a href="https://twitter.com/DadosTucano" title="Faça parte do projeto" class="md-button">
+          Twitter
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCnLgjdP4UIf_CoBSY2howFA" title="Faça parte do projeto" class="md-button">
+         Youtube
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="tx-contai">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
+      <div class="tx-hero__image">
+        <img src="assets/images/illustration15.png" alt="">
+      </div>
+      <div class="tx-hero__content">
+        <h1>Podcast: Tucano em Dados.</strong></h1>
+        <h1>Ouça nossas análises de dados sobre os dados de Tucano.</strong></h1>
+        <a href="https://anchor.fm/tucanoemdados" title="Faça parte do projeto" class="md-button">
+          Acesse Anchor.fm
+        </a>
+        <a href="https://open.spotify.com/show/4RM2jYMNQFrYiJIFYv222e" title="Faça parte do projeto" class="md-button">
+          Spotify
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
 <!-- Seção de Iniciativa -->
 <section class="caixa-marcas">
   
   <div class="open-source">
-    <h1>Faça parte do projeto voluntário</h1> 
     <p><strong></strong></p>
     <img src="assets/images/logo-dados-abertos.svg" alt="" style="width: 40%; height: auto;"> 
   </div>
