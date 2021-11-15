@@ -29,6 +29,10 @@ template: overrides/main.html
     })
     </script>
 
+<a href="https://api.whatsapp.com/send?text=https://dadosabertostucano.org/dados-analises/25-03-2021-analise-prefeitura-acesso-a-informacao/" target=“_blank”><em>Compartilhe essa análise por WhatsApp</em></a>
+
+<a href="https://telegram.me/share/url?url=https://dadosabertostucano.org/dados-analises/25-03-2021-analise-prefeitura-acesso-a-informacao/" target=“_blank”><em>Compartilhe essa análise por Telegram</em></a>
+
 
 # 📈 Análise: **Serviço de Informação ao Cidadão** da **Prefeitura de Tucano** não atende requisitos da Lei 
 > Publicado em 25 de março de 2021 - Análise: **Dados Abertos de Tucano.**
